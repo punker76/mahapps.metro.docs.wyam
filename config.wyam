@@ -1,7 +1,7 @@
 #recipe Docs
 
 // Customize your settings and add new ones here
-Settings[Keys.Host] = "host.com";
-Settings[DocsKeys.Title] = "My Docs";
+Settings[Keys.Host] = "punker76.github.io/mahapps.metro.docs.wyam/";
+Settings[DocsKeys.Title] = "MahApps.Metro";
 
 // Add any pipeline customizations here
