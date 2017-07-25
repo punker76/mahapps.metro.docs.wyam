@@ -2,8 +2,11 @@
 
 // Customize your settings and add new ones here
 
-Settings[Keys.Host] = "punker76.github.io/mahapps.metro.docs.wyam";
+Settings[Keys.Host] = "punker76.github.io";
+Settings[Keys.LinkRoot] = "/mahapps.metro.docs.wyam";
+
 Settings[DocsKeys.Title] = "MahApps.Metro";
 Settings[DocsKeys.BaseEditUrl] = "https://github.com/punker76/mahapps.metro.docs.wyam/tree/master/input/";
+Settings[DocsKeys.SourceFiles] = "../src/src/**/{!bin,!obj,!packages,!*.Tests,!*.Build,!*.Samples,!Microsoft.Windows.Shell,}/**/*.cs";
 
 // Add any pipeline customizations here
