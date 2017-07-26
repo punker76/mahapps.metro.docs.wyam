@@ -20,15 +20,15 @@ install:
   - 7z x ..\Wyam\Wyam.zip -o..\Wyam -r
 
 build_script:
-  - ..\Wyam\wyam --output ..\output --virtual-dir "/mahapps.metro.docs.wyam"
+  - ..\Wyam\wyam --output ..\output
 
 on_success:
   # Switch branches to gh-pages, clean the folder, copy everything in from the Wyam output, and commit/push
   # See http://www.appveyor.com/docs/how-to/git-push for more info
   - git config --global credential.helper store
   # EDIT your Git email and name
-  - echo %APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL%
-  - echo %APPVEYOR_REPO_COMMIT_AUTHOR%
+  #- echo %APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL%
+  #- echo %APPVEYOR_REPO_COMMIT_AUTHOR%
   - git config --global user.email %APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL%
   - git config --global user.name %APPVEYOR_REPO_COMMIT_AUTHOR%
   - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"

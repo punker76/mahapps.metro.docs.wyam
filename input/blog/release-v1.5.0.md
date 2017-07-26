@@ -7,7 +7,7 @@ Author: punker76
 ## Features / Changes / Fixes
 
 - If a dialog is shown in a window other than the MainWindow, `OwningWindow` will be used if available to detect the theme. [#2840](https://github.com/MahApps/MahApps.Metro/pull/2840)
-- Fixed an issue for `DateTimePicker` when the time is cleared if a date is selected [#2837](https://github.com/MahApps/MahApps.Metro/pull/2837)
+- Fixed an issue for `DateTimePicker` when the time is cleared if a date is selected. [#2837](https://github.com/MahApps/MahApps.Metro/pull/2837)
 - `HamburgerMenu` changes and improvements
     + New `HamburgerMenuIconItem` helper class which can be used to put any object icon to the menu item.
     + Fixed tab order and keyboard selection.
