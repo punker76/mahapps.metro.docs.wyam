@@ -44,6 +44,6 @@ on_success:
   - git remote set-url origin https://github.com/punker76/mahapps.metro.docs.wyam
   - git add -A
   #- git commit -a -m "Commit from AppVeyor: $env:APPVEYOR_REPO_COMMIT $env:APPVEYOR_REPO_COMMIT_MESSAGE $env:APPVEYOR_REPO_COMMIT_MESSAGE_EXTENDED"
-  - git commit -a -m "Commit from AppVeyor"
+  - git commit -a -m "Commit from AppVeyor %%APPVEYOR_REPO_COMMIT%%"
   - git push
   
