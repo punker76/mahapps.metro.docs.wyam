@@ -2,6 +2,8 @@
 
 // Customize your settings and add new ones here
 
+System.Globalization.CultureInfo.DefaultThreadCurrentCulture = System.Globalization.CultureInfo.CreateSpecificCulture("en-US");
+
 Settings[Keys.Host] = "punker76.github.io";
 Settings[Keys.LinkRoot] = "/mahapps.metro.docs.wyam";
 

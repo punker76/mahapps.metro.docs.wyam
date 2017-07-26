@@ -1,5 +1,5 @@
-Title: New Release 1.5.0
-Published: 13/4/2017
+Title: Release 1.5.0
+Published: 4/13/2017
 Category: Release
 Author: punker76
 ---
