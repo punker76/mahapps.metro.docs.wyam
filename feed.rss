@@ -5,16 +5,155 @@
 		<link>http://punker76.github.io/mahapps.metro.docs.wyam</link>
 		<description />
 		<copyright>2017</copyright>
-		<pubDate>Wed, 26 Jul 2017 09:46:41 GMT</pubDate>
-		<lastBuildDate>Wed, 26 Jul 2017 09:46:41 GMT</lastBuildDate>
+		<pubDate>Wed, 26 Jul 2017 13:39:05 GMT</pubDate>
+		<lastBuildDate>Wed, 26 Jul 2017 13:39:05 GMT</lastBuildDate>
 		<item>
-			<title>New Release</title>
-			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/new-release</link>
-			<description>&lt;p&gt;There is a new release out, go get it now.&lt;/p&gt;</description>
-			<author>me</author>
-			<guid>http://punker76.github.io/mahapps.metro.docs.wyam/blog/new-release</guid>
-			<pubDate>Fri, 01 Jan 2016 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;p&gt;There is a new release out, go get it now.&lt;/p&gt;
+			<title>Release 1.5.0</title>
+			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.5.0</link>
+			<author>punker76</author>
+			<guid>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.5.0</guid>
+			<pubDate>Thu, 13 Apr 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id="features-changes-fixes"&gt;Features / Changes / Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If a dialog is shown in a window other than the MainWindow, &lt;code&gt;OwningWindow&lt;/code&gt; will be used if available to detect the theme. &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2840"&gt;#2840&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed an issue for &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker"&gt;DateTimePicker&lt;/a&gt;&lt;/code&gt; when the time is cleared if a date is selected. &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2837"&gt;#2837&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenu"&gt;HamburgerMenu&lt;/a&gt;&lt;/code&gt; changes and improvements
+&lt;ul&gt;
+&lt;li&gt;New &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenuIconItem"&gt;HamburgerMenuIconItem&lt;/a&gt;&lt;/code&gt; helper class which can be used to put any object icon to the menu item.&lt;/li&gt;
+&lt;li&gt;Fixed tab order and keyboard selection.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ItemCommand&lt;/code&gt; and &lt;code&gt;OptionsItemCommand&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Command&lt;/code&gt; for &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenuItem"&gt;HamburgerMenuItem&lt;/a&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;New property &lt;code&gt;PaneForeground&lt;/code&gt; for HamburgerMenu and Splitview and new Foreground/Background brushes &lt;code&gt;MahApps.Metro.HamburgerMenu.PaneBackgroundBrush&lt;/code&gt;, &lt;code&gt;MahApps.Metro.HamburgerMenu.PaneForegroundBrush&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Update scroll behavior to match with the UWPCommunityToolkit (see UWP Toolkit Issue &lt;a href="https://github.com/Microsoft/UWPCommunityToolkit/issues/954"&gt;#954&lt;/a&gt;).
+&lt;ul&gt;
+&lt;li&gt;Add a new dependency property &lt;code&gt;VerticalScrollBarOnLeftSide&lt;/code&gt; to show the vertical scrollbar on the left side&lt;/li&gt;
+&lt;li&gt;Use a disappearing ScrollViewer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;HamburgerVisibility&lt;/code&gt; property &lt;a href="https://github.com/Microsoft/UWPCommunityToolkit/pull/1020"&gt;UWPCommunityToolkit #1020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Set &lt;code&gt;Content&lt;/code&gt; for &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenu"&gt;HamburgerMenu&lt;/a&gt;&lt;/code&gt; only if one of the inner ListBox controls has a selected item.&lt;/li&gt;
+&lt;li&gt;New &lt;code&gt;HamburgerMenuHeaderTemplate&lt;/code&gt; property to set a header right of the HamburgerMenu button. &lt;a href="https://github.com/SilverDragon135"&gt;&amp;#64;SilverDragon135&lt;/a&gt; &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2917"&gt;#2917&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Implement the interface &lt;code&gt;ICommandSource&lt;/code&gt; and handle Command binding change to hook or unhook command executable.&lt;br&gt;
+&lt;img src="https://cloud.githubusercontent.com/assets/658431/25019804/3f0822d8-208c-11e7-939c-72be28092a0e.gif" class="img-fluid" alt="mahapps_hamburgermenu_commands"&gt;&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;MahApps.Metro.Styles.HamburgerMenu&lt;/code&gt; style key to the HamburgerMenu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If &lt;code&gt;ShowInTaskbar = false&lt;/code&gt;, when double click on the title bar of a minimized window, the window will be restored instead of maximized. &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2854"&gt;#2854&lt;/a&gt; &lt;a href="https://github.com/hausenism"&gt;&amp;#64;hausenism&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix WindowCommands tab stop bug &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2858"&gt;#2858&lt;/a&gt; &lt;a href="https://github.com/neilt6"&gt;&amp;#64;neilt6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Don't overwrite cancellation for window close event &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2868"&gt;#2868&lt;/a&gt; &lt;a href="https://github.com/batzen"&gt;&amp;#64;batzen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Expose close button margin for &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroTabItem"&gt;MetroTabItem&lt;/a&gt;&lt;/code&gt; &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2803"&gt;#2803&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Badged"&gt;Badged&lt;/a&gt;&lt;/code&gt; control. Thx to &lt;a href="https://github.com/ButchersBoy"&gt;&amp;#64;ButchersBoy&lt;/a&gt;&lt;br&gt;
+&lt;img src="https://cloud.githubusercontent.com/assets/658431/23340345/d7dc4c86-fc34-11e6-838b-1ebee9381c7d.png" class="img-fluid" alt="image"&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;ControlsHelper.CornerRadius&lt;/code&gt; can now used for &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitButton"&gt;SplitButton&lt;/a&gt;&lt;/code&gt; and &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DropDownButton"&gt;DropDownButton&lt;/a&gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;New underline types for &lt;code&gt;TabControl&lt;/code&gt; and &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroTabControl"&gt;MetroTabControl&lt;/a&gt;&lt;/code&gt; &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2902"&gt;#2902&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Adds a new &lt;code&gt;Underlined&lt;/code&gt; attached property to &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TabControlHelper"&gt;TabControlHelper&lt;/a&gt;&lt;/code&gt; which controls the type of the underline type. The old &lt;code&gt;IsUnderlined&lt;/code&gt; property is now obsolete.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;/// &lt;summary&gt;
+/// Specifies the underline position of a TabControl.
+/// &lt;/summary&gt;
+public enum &lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/UnderlinedType"&gt;UnderlinedType&lt;/a&gt;
+{
+    None, // nothing
+    TabItems, // the old behavior with `IsUnderlined="True"`
+    SelectedTabItem, // selected TabItem underlined + underline hover effect for unselected items
+    TabPanel // underlined TabPanel and selected/hovered TabItem
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Add also new &lt;code&gt;Brush&lt;/code&gt; attached properties to enable easy changing the underline brushes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;TabControlHelper.UnderlineBrush
+TabControlHelper.UnderlineSelectedBrush
+TabControlHelper.UnderlineMouseOverBrush
+TabControlHelper.UnderlineMouseOverSelectedBrush
+&lt;/code&gt;&lt;/pre&gt;
+&lt;img src="https://cloud.githubusercontent.com/assets/658431/24204520/0e6f3cbc-0f19-11e7-8a2b-f40752918a96.gif" class="img-fluid" alt="mahapps_newunderline4"&gt;&lt;/li&gt;
+&lt;li&gt;New underline types also for &lt;code&gt;AnimatedTabControl&lt;/code&gt; and &lt;code&gt;AnimatedSingleRowTabControl&lt;/code&gt; styles and for &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroAnimatedTabControl"&gt;MetroAnimatedTabControl&lt;/a&gt;&lt;/code&gt; and &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroAnimatedSingleRowTabControl"&gt;MetroAnimatedSingleRowTabControl&lt;/a&gt;&lt;/code&gt; &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2905"&gt;#2905&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix / improve &lt;code&gt;AnimatedSingleRowTabControl&lt;/code&gt; styles
+&lt;ul&gt;
+&lt;li&gt;Fix template changing (doesn't works if TabStripPlacement was changed)&lt;/li&gt;
+&lt;li&gt;Disappear arrow repeat buttons&lt;/li&gt;
+&lt;li&gt;Use brush, hover and pressed brush like normal ScrollViewer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Fixed &lt;code&gt;ClearTypeHint&lt;/code&gt; and wrong &lt;code&gt;Margin&lt;/code&gt; for &lt;code&gt;ComboBox&lt;/code&gt; and &lt;code&gt;ComboBoxItem&lt;/code&gt; &lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2903"&gt;#2903&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix &lt;code&gt;ListView&lt;/code&gt; style issues
+&lt;ul&gt;
+&lt;li&gt;Use accent brush for highlighted border&lt;/li&gt;
+&lt;li&gt;Fix SnapsToDevicePixels usage&lt;/li&gt;
+&lt;li&gt;Fix disabled foreground brush&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Fix SnapsToDevicePixels usage for &lt;code&gt;CheckBox&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout"&gt;Flyout&lt;/a&gt;&lt;/code&gt; changes and improvements
+&lt;ul&gt;
+&lt;li&gt;Fix &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout"&gt;Flyout&lt;/a&gt;&lt;/code&gt; modal usage. All title bar commands are now hidden if a &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout"&gt;Flyout&lt;/a&gt;&lt;/code&gt; is modal.&lt;/li&gt;
+&lt;li&gt;Fix background and foreground usage of controls in a &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout"&gt;Flyout&lt;/a&gt;&lt;/code&gt; if user changes theme on the fly. &lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2337"&gt;#2337&lt;/a&gt; The &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout"&gt;Flyout&lt;/a&gt;&lt;/code&gt; has a different background, so we should override some background and foreground brushes and colors.&lt;/li&gt;
+&lt;li&gt;Change &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout"&gt;Flyout&lt;/a&gt;&lt;/code&gt; from &lt;code&gt;ContentControl&lt;/code&gt; to &lt;code&gt;HeaderedContentControl&lt;/code&gt; which has the correct properties for headers.&lt;/li&gt;
+&lt;li&gt;Enable &lt;code&gt;Border&lt;/code&gt; for &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout"&gt;Flyout&lt;/a&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;GrayBrush7&lt;/code&gt; and &lt;code&gt;WhiteBrush&lt;/code&gt; for menu &lt;code&gt;Separator&lt;/code&gt; instead fixed colors.&lt;/li&gt;
+&lt;li&gt;Fix BindingExpression at &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DropDownButton"&gt;DropDownButton&lt;/a&gt;&lt;/code&gt;. Don't set &lt;code&gt;ItemTemplate&lt;/code&gt;to &lt;code&gt;ContentTemplate&lt;/code&gt;, &lt;code&gt;ItemTemplateSelector&lt;/code&gt; to &lt;code&gt;ContentTemplateSelector&lt;/code&gt; and &lt;code&gt;ItemStringFormat&lt;/code&gt; to &lt;code&gt;ContentStringFormat&lt;/code&gt;. This breaks the whole usage of the content stuff and shows a BindingExpression path error. &lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2883"&gt;#2883&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New &lt;code&gt;UsernameCharacterCasing&lt;/code&gt; property for &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/LoginDialogSettings"&gt;LoginDialogSettings&lt;/a&gt;&lt;/code&gt; &lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2683"&gt;#2683&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix &lt;code&gt;SelectionChanged&lt;/code&gt; event of &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitButton"&gt;SplitButton&lt;/a&gt;&lt;/code&gt; which fires now only once.&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;TransitionCompleted&lt;/code&gt; event to &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroContentControl"&gt;MetroContentControl&lt;/a&gt;&lt;/code&gt; and &lt;code&gt;WindowTransitionCompleted&lt;/code&gt; event to &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroWindow"&gt;MetroWindow&lt;/a&gt;&lt;/code&gt; which will be fired after the loaded Storyboard is completed.&lt;/li&gt;
+&lt;li&gt;Add new &lt;code&gt;WatermarkAlignment&lt;/code&gt; attached property to &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TextBoxHelper"&gt;TextBoxHelper&lt;/a&gt;&lt;/code&gt; which indicates the horizontal alignment of the watermark (incl. floating watermark).&lt;br&gt;
+&lt;img src="https://cloud.githubusercontent.com/assets/658431/25019759/14a50b28-208c-11e7-93cb-406fe8b65b7c.gif" class="img-fluid" alt="mahapps_watermark"&gt;&lt;/li&gt;
+&lt;li&gt;Add new &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DataGridHelper"&gt;DataGridHelper&lt;/a&gt;&lt;/code&gt; with &lt;code&gt;EnableCellEditAssist&lt;/code&gt; attached property which enabled direct editing for CheckBox and ComboBox cells. (default to false) Thx to &lt;a href="https://github.com/ButchersBoy"&gt;&amp;#64;ButchersBoy&lt;/a&gt; (taken from &lt;a href="https://github.com/ButchersBoy/MaterialDesignInXamlToolkit"&gt;MaterialDesignInXamlToolkit&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="closed-issues"&gt;Closed Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2835"&gt;#2835&lt;/a&gt; ShowMessageAnsync() causes exception&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2848"&gt;#2848&lt;/a&gt; HamburgerMenu Command MVVM&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2866"&gt;#2866&lt;/a&gt; Validation-Popup won't be opened after closing by mouse left button down&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2870"&gt;#2870&lt;/a&gt; MahApps Not Thread Safe But Should Be [Test Case]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2877"&gt;#2877&lt;/a&gt; Can't bind to ShowTitleBar&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2871"&gt;#2871&lt;/a&gt; SplitButton CornerRadius&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2862"&gt;#2862&lt;/a&gt; Flyout close button icon is incorrect when setting flow direction right to left&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/1938"&gt;#1938&lt;/a&gt; Problem with window size&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2066"&gt;#2066&lt;/a&gt; On Windows 8 a window with height 23px resizes to 39px after dragging&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2792"&gt;#2792&lt;/a&gt; Win32Exception on closing window&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2886"&gt;#2886&lt;/a&gt; NumericUpDown: HasDecimals=False &amp;amp; using a bound StringFormat allows to enter a decimal point &lt;a href="https://github.com/davericardo"&gt;&amp;#64;davericardo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2885"&gt;#2885&lt;/a&gt; [Bug] Badged Control Causes Window Loading to Hang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2895"&gt;#2895&lt;/a&gt; [RFC] [Enhancement] Proposed TabControlHelper.IsUnderlined Change&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2903"&gt;#2903&lt;/a&gt; 1 pixel space between ComboBoxItems closes ComboBox&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2841"&gt;#2841&lt;/a&gt; Modal flyout issue&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2337"&gt;#2337&lt;/a&gt; Flyout style from Accent to Light is not working&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2883"&gt;#2883&lt;/a&gt; Can Reproduce BindingExpression path error: ... property not found ... On DropDownButton&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2683"&gt;#2683&lt;/a&gt; [Question] Force TextBox uppercase in ShowLoginAsync&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2857"&gt;#2857&lt;/a&gt; HamburgerMenuItem Scrolling&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/1835"&gt;#1835&lt;/a&gt; Window animation interferes with WindowsFormsHost positioning&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2917"&gt;#2917&lt;/a&gt; Hamburger Header Templating&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2332"&gt;#2332&lt;/a&gt; Calendar ignores IsTodayHighlighted property&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2434"&gt;#2434&lt;/a&gt; DataGridNumericUpDownColumn foreground color&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2627"&gt;#2627&lt;/a&gt; Inconsistent FloatingWatermark Alignment&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2865"&gt;#2865&lt;/a&gt; [Feature request]Enable/Disable of Hamburger Menu Item&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2880"&gt;#2880&lt;/a&gt; RangeSlider: Inadequate snapping to ticks&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2812"&gt;#2812&lt;/a&gt; Font family in Flyout.xaml and MetroNavigationWindow.xaml&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2764"&gt;#2764&lt;/a&gt; Flyout - Border not shown&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2515"&gt;#2515&lt;/a&gt; NumericUpDown Value not displayed&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/1929"&gt;#1929&lt;/a&gt; MetroDataGridCheckBox style prevents the CellEditEnding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/body&gt;&lt;/html&gt;</content:encoded>
+		</item>
+		<item>
+			<title>Release 1.4.3</title>
+			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.4.3</link>
+			<author>punker76</author>
+			<guid>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.4.3</guid>
+			<pubDate>Thu, 02 Feb 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h2 id="changes-fixes"&gt;Changes / Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix Flyout AutoClose sample&lt;/li&gt;
+&lt;li&gt;Try to handle call fail of GetPhysicalCursorPos. &lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2830"&gt;#2830&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="closed-issues"&gt;Closed Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2832"&gt;#2832&lt;/a&gt; Wrong window maximize on two monitor systems.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2830"&gt;#2830&lt;/a&gt; GetPhysicalCursorPos&lt;/li&gt;
+&lt;/ul&gt;
 </content:encoded>
 		</item>
 	</channel>
