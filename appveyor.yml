@@ -30,8 +30,6 @@ on_success:
   # See http://www.appveyor.com/docs/how-to/git-push for more info
   - git config --global credential.helper store
   # EDIT your Git email and name
-  #- echo %APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL%
-  #- echo %APPVEYOR_REPO_COMMIT_AUTHOR%
   - git config --global user.email %APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL%
   - git config --global user.name %APPVEYOR_REPO_COMMIT_AUTHOR%
   - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
@@ -43,7 +41,6 @@ on_success:
   # EDIT the origin of your repository - have to reset it here because AppVeyor pulls from SSH, but GitHub won't accept SSH pushes
   - git remote set-url origin https://github.com/punker76/mahapps.metro.docs.wyam
   - git add -A
-  #- git commit -a -m "Commit from AppVeyor: $env:APPVEYOR_REPO_COMMIT $env:APPVEYOR_REPO_COMMIT_MESSAGE $env:APPVEYOR_REPO_COMMIT_MESSAGE_EXTENDED"
-  - git commit -a -m "Commit from AppVeyor %%APPVEYOR_REPO_COMMIT%%"
+  - git commit -a -m "AppVeyor Publish %%APPVEYOR_REPO_COMMIT%% %%APPVEYOR_REPO_COMMIT_MESSAGE%% %%APPVEYOR_REPO_COMMIT_MESSAGE_EXTENDED%%"
   - git push
   
