@@ -3,6 +3,8 @@ branches:
     - master
     
 environment:
+  op_build_user_email: $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
+  op_build_user: $env:APPVEYOR_REPO_COMMIT_AUTHOR
   access_token:
     # EDIT the encrypted version of your GitHub access token
     secure: FzXhH4JfxcygaW/6H5Z83NX8UAPLM1S1YgIZtW8luv6v+ZFSFxhm85UZWq7RQDBp
@@ -27,10 +29,10 @@ on_success:
   # See http://www.appveyor.com/docs/how-to/git-push for more info
   - git config --global credential.helper store
   # EDIT your Git email and name
-  #- git config --global user.email $env:op_build_user_email
-  - git config --global user.email $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
-  #- git config --global user.name $env:op_build_user
-  - git config --global user.name $env:APPVEYOR_REPO_COMMIT_AUTHOR
+  - echo $env:op_build_user_email
+  - echo $env:op_build_user
+  - git config --global user.email $env:op_build_user_email
+  - git config --global user.name $env:op_build_user
   - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
   - git checkout gh-pages
   - git rm -rf .
