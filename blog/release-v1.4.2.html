@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/mahapps.metro.docs.wyam/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/mahapps.metro.docs.wyam/assets/img/favicon.ico" type="image/x-icon">
-        <title>MahApps.Metro - February, 2017</title>
+        <title>MahApps.Metro - Release 1.4.2</title>
         <link href="/mahapps.metro.docs.wyam/assets/css/mermaid.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/highlight.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/bootstrap/bootstrap.css" rel="stylesheet" />
@@ -75,6 +75,7 @@
             <aside class="main-sidebar ">
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
+        <div><p><a href="https://github.com/punker76/mahapps.metro.docs.wyam/tree/master/input/blog/release-v1.4.2.md"><i class="fa fa-pencil-square" aria-hidden="true"></i> Edit Content</a></p></div>
     <div id="infobar-headings"></div>
 
                 </section>
@@ -89,7 +90,7 @@
     
     <li class="header"><i class="fa fa-calendar"></i> Archive</li>    
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2017/04">April, 2017</a></li>
-        <li class="selected"><a href="/mahapps.metro.docs.wyam/blog/archive/2017/02">February, 2017</a></li>
+        <li><a href="/mahapps.metro.docs.wyam/blog/archive/2017/02">February, 2017</a></li>
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2017/01">January, 2017</a></li>
     
     <li class="header"><i class="fa fa-user"></i> Authors</li>    
@@ -106,33 +107,47 @@
 
 
 	<section class="content-header">
-		<h1>February, 2017</h1>
+		<h1>Release 1.4.2</h1>
 	</section>
 	<section class="content">
 		
 
-        <h2><a href="/mahapps.metro.docs.wyam/blog/release-v1.4.3">Release 1.4.3</a></h2>
+
 <dl class="dl-horizontal">
     <dt><i class="fa fa-calendar"></i> Published</dt>
-    <dd>Thursday, February 2, 2017</dd>
+    <dd>Monday, January 30, 2017</dd>
         <dt><i class="fa fa-bookmark"></i> Category</dt>
         <dd><a href="/mahapps.metro.docs.wyam/blog/release">Release</a></dd>
             <dt><i class="fa fa-user"></i> Author</dt>
         <dd><a href="/mahapps.metro.docs.wyam/blog/author/punker76">punker76</a></dd>
-</dl>            <div>
-                
-                <a href="/mahapps.metro.docs.wyam/blog/release-v1.4.3">Read more...</a>
-            </div>
-        <hr />
-    <nav>
-        <ul class="pager">
-            <li class="previous">                
-            </li>
-            <li class="next">
-            </li>
-        </ul>
-    </nav>
+</dl>
 
+<html><head></head><body><h2 id="changes-fixes">Changes / Fixes</h2>
+<ul>
+<li><a href="https://github.com/MahApps/MahApps.Metro/pull/2814">#2814</a> Correct display of media buttons in <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HotKeyBox">HotKeyBox</a></code> (thx &#64;thoemmi)</li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/commit/7fcc6b770c77f483eb038705b252cfa7624a343f">7fcc6b7</a> Fix breaking changes for obsolete properties <code>ButtonHelper.PreserveTextCase</code>, <code>ButtonHelper.CornerRadius</code> and <code>ControlsHelper.ButtonWidth</code></li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/commit/a1d199dd599fa9f46838d6449599b36c7035f76e">a1d199d</a> Fix binding to Content of HamburgerMenu</li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/pull/2799">#2799</a> DateTimePicker SelectedDate issue (thx &#64;xxMUROxx)
+<ul>
+<li>Fix issue where <code>SelectedDate</code> is set to the <code>DisplayDate</code> if the <code>SelectedDate</code> is <code>DateTime.MinValue</code>. This issue appears when binding to a property of DateTime and the date is <code>DateTime.MinValue</code>.</li>
+</ul>
+</li>
+<li>Z-Order was wrong if <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroWindow">MetroWindow</a></code> is ignoring the Taskbar and maximized. This fix and the main Taskbar z-Order issue only happens with Windows 10 anniversary update 1607. Hopefully fixed in the future. <a href="https://github.com/MahApps/MahApps.Metro/issues/2780">#2780</a></li>
+<li>Use internal GetPhysicalCursorPos instead GetCursorPos (tested with remote desktop and different DPI) <a href="https://github.com/MahApps/MahApps.Metro/issues/2748">#2748</a></li>
+</ul>
+<h2 id="closed-issues">Closed Issues</h2>
+<ul>
+<li><a href="https://github.com/MahApps/MahApps.Metro/issues/2585">#2585</a> HotKeyBox gives wrong names to multimedia buttons</li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/issues/2817">#2817</a> TransitioningContentControl's TransitionCompleted event fires twice</li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/issues/2804">#2804</a> TransitionsEnabled=false NullpointerException</li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/issues/2823">#2823</a> Issue with ClearTextButton on TextBox</li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/issues/2815">#2815</a> Layout issue with TabControl, TabStripPlacement Left, TabControlHelper.IsUnderlined="True"</li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/issues/2770">#2770</a> Increase Win10 ToggleSwitch Default Margins</li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/issues/2780">#2780</a> External Dialogs not visible with MainWindow set to IgnoreTaskbarOnMaximize</li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/issues/2748">#2748</a> Access Denied</li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/issues/2591">#2591</a> Weird MetroProgressBar animation with IsIndeterminate=true</li>
+</ul>
+</body></html>
 
 	</section>
                 

@@ -5,8 +5,8 @@
 		<link>http://punker76.github.io/mahapps.metro.docs.wyam</link>
 		<description />
 		<copyright>2017</copyright>
-		<pubDate>Wed, 26 Jul 2017 13:44:45 GMT</pubDate>
-		<lastBuildDate>Wed, 26 Jul 2017 13:44:45 GMT</lastBuildDate>
+		<pubDate>Wed, 26 Jul 2017 13:50:22 GMT</pubDate>
+		<lastBuildDate>Wed, 26 Jul 2017 13:50:22 GMT</lastBuildDate>
 		<item>
 			<title>Release 1.5.0</title>
 			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.5.0</link>
@@ -153,6 +153,61 @@ TabControlHelper.UnderlineMouseOverSelectedBrush
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2832"&gt;#2832&lt;/a&gt; Wrong window maximize on two monitor systems.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2830"&gt;#2830&lt;/a&gt; GetPhysicalCursorPos&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+		</item>
+		<item>
+			<title>Release 1.4.2</title>
+			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.4.2</link>
+			<author>punker76</author>
+			<guid>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.4.2</guid>
+			<pubDate>Mon, 30 Jan 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id="changes-fixes"&gt;Changes / Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2814"&gt;#2814&lt;/a&gt; Correct display of media buttons in &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HotKeyBox"&gt;HotKeyBox&lt;/a&gt;&lt;/code&gt; (thx &amp;#64;thoemmi)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/commit/7fcc6b770c77f483eb038705b252cfa7624a343f"&gt;7fcc6b7&lt;/a&gt; Fix breaking changes for obsolete properties &lt;code&gt;ButtonHelper.PreserveTextCase&lt;/code&gt;, &lt;code&gt;ButtonHelper.CornerRadius&lt;/code&gt; and &lt;code&gt;ControlsHelper.ButtonWidth&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/commit/a1d199dd599fa9f46838d6449599b36c7035f76e"&gt;a1d199d&lt;/a&gt; Fix binding to Content of HamburgerMenu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2799"&gt;#2799&lt;/a&gt; DateTimePicker SelectedDate issue (thx &amp;#64;xxMUROxx)
+&lt;ul&gt;
+&lt;li&gt;Fix issue where &lt;code&gt;SelectedDate&lt;/code&gt; is set to the &lt;code&gt;DisplayDate&lt;/code&gt; if the &lt;code&gt;SelectedDate&lt;/code&gt; is &lt;code&gt;DateTime.MinValue&lt;/code&gt;. This issue appears when binding to a property of DateTime and the date is &lt;code&gt;DateTime.MinValue&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Z-Order was wrong if &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroWindow"&gt;MetroWindow&lt;/a&gt;&lt;/code&gt; is ignoring the Taskbar and maximized. This fix and the main Taskbar z-Order issue only happens with Windows 10 anniversary update 1607. Hopefully fixed in the future. &lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2780"&gt;#2780&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Use internal GetPhysicalCursorPos instead GetCursorPos (tested with remote desktop and different DPI) &lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2748"&gt;#2748&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="closed-issues"&gt;Closed Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2585"&gt;#2585&lt;/a&gt; HotKeyBox gives wrong names to multimedia buttons&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2817"&gt;#2817&lt;/a&gt; TransitioningContentControl's TransitionCompleted event fires twice&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2804"&gt;#2804&lt;/a&gt; TransitionsEnabled=false NullpointerException&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2823"&gt;#2823&lt;/a&gt; Issue with ClearTextButton on TextBox&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2815"&gt;#2815&lt;/a&gt; Layout issue with TabControl, TabStripPlacement Left, TabControlHelper.IsUnderlined="True"&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2770"&gt;#2770&lt;/a&gt; Increase Win10 ToggleSwitch Default Margins&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2780"&gt;#2780&lt;/a&gt; External Dialogs not visible with MainWindow set to IgnoreTaskbarOnMaximize&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2748"&gt;#2748&lt;/a&gt; Access Denied&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2591"&gt;#2591&lt;/a&gt; Weird MetroProgressBar animation with IsIndeterminate=true&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/body&gt;&lt;/html&gt;</content:encoded>
+		</item>
+		<item>
+			<title>Release 1.4.1</title>
+			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.4.1</link>
+			<author>punker76</author>
+			<guid>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.4.1</guid>
+			<pubDate>Thu, 05 Jan 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h2 id="changes-fixes"&gt;Changes / Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2793"&gt;#2793&lt;/a&gt; StringToVisibilityConverter should handle null like an empty string&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2796"&gt;#2796&lt;/a&gt; HamburgerMenu SelectedIndex Fix&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2797"&gt;#2797&lt;/a&gt; Fix NumericUpDown using UseFloatingWatermark&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2789"&gt;#2789&lt;/a&gt; Prevent the MetroDataGridCheckBox from being toggled by a TAB + SPACE when the cell is supposed to be read only.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="closed-issues"&gt;Closed Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2795"&gt;#2795&lt;/a&gt; NumericUpDown Watermark is shown twice when using floatingwatermark for textboxes&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2788"&gt;#2788&lt;/a&gt; MetroDataGridCheckBox cell can be changed when IsReadOnly via keyboard + space&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2785"&gt;#2785&lt;/a&gt; Vailidation tooltips does not show.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2780"&gt;#2780&lt;/a&gt; External Dialogs not visible with MainWindow set to IgnoreTaskbarOnMaximize&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 		</item>
