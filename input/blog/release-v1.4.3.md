@@ -4,12 +4,12 @@ Category: release
 Author: punker76
 ---
 
-## Changes / Fixes
+# Changes / Fixes
 
 - Fix Flyout AutoClose sample
 - Try to handle call fail of GetPhysicalCursorPos. [#2830](https://github.com/MahApps/MahApps.Metro/issues/2830)
 
-## Closed Issues
+# Closed Issues
 
 - [#2832](https://github.com/MahApps/MahApps.Metro/issues/2832) Wrong window maximize on two monitor systems.
 - [#2830](https://github.com/MahApps/MahApps.Metro/issues/2830) GetPhysicalCursorPos

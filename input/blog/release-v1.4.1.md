@@ -4,14 +4,14 @@ Category: release
 Author: punker76
 ---
 
-## Changes / Fixes
+# Changes / Fixes
 
 - [#2793](https://github.com/MahApps/MahApps.Metro/pull/2793) StringToVisibilityConverter should handle null like an empty string
 - [#2796](https://github.com/MahApps/MahApps.Metro/pull/2796) HamburgerMenu SelectedIndex Fix
 - [#2797](https://github.com/MahApps/MahApps.Metro/pull/2797) Fix NumericUpDown using UseFloatingWatermark
 - [#2789](https://github.com/MahApps/MahApps.Metro/pull/2789) Prevent the MetroDataGridCheckBox from being toggled by a TAB + SPACE when the cell is supposed to be read only.
 
-## Closed Issues
+# Closed Issues
 
 - [#2795](https://github.com/MahApps/MahApps.Metro/issues/2795) NumericUpDown Watermark is shown twice when using floatingwatermark for textboxes
 - [#2788](https://github.com/MahApps/MahApps.Metro/issues/2788) MetroDataGridCheckBox cell can be changed when IsReadOnly via keyboard + space

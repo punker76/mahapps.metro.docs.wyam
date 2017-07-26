@@ -4,7 +4,7 @@ Category: release
 Author: punker76
 ---
 
-## Features / Changes / Fixes
+# Features / Changes / Fixes
 
 - Don't focus flyout on close [#2671](https://github.com/MahApps/MahApps.Metro/pull/2671) (@ButchersBoy) This hack was introduced with [#1805](https://github.com/MahApps/MahApps.Metro/pull/1805) which was noticed by manual testing.
 - Don't focus the `FlyoutsControl`
@@ -170,7 +170,7 @@ Author: punker76
 	}
 	```
 
-## Closed Issues / Pull Requests
+# Closed Issues / Pull Requests
 
 - [#2674](https://github.com/MahApps/MahApps.Metro/issues/2674), [#2671](https://github.com/MahApps/MahApps.Metro/pull/2671) Null Reference Exception in BorderlessWindowBehavior.TopMostChangeNotifierOnValueChanged (@mikeasage)
 - [#2671](https://github.com/MahApps/MahApps.Metro/pull/2671) Proposal - Dont focus flyout on close

@@ -4,7 +4,7 @@ Category: release
 Author: punker76
 ---
 
-## Changes / Fixes
+# Changes / Fixes
 
 - [#2814](https://github.com/MahApps/MahApps.Metro/pull/2814) Correct display of media buttons in `HotKeyBox` (thx @thoemmi)
 - [7fcc6b7](https://github.com/MahApps/MahApps.Metro/commit/7fcc6b770c77f483eb038705b252cfa7624a343f) Fix breaking changes for obsolete properties `ButtonHelper.PreserveTextCase`, `ButtonHelper.CornerRadius` and `ControlsHelper.ButtonWidth`
@@ -14,7 +14,7 @@ Author: punker76
 - Z-Order was wrong if `MetroWindow` is ignoring the Taskbar and maximized. This fix and the main Taskbar z-Order issue only happens with Windows 10 anniversary update 1607. Hopefully fixed in the future. [#2780](https://github.com/MahApps/MahApps.Metro/issues/2780)
 - Use internal GetPhysicalCursorPos instead GetCursorPos (tested with remote desktop and different DPI) [#2748](https://github.com/MahApps/MahApps.Metro/issues/2748)
 
-## Closed Issues
+# Closed Issues
 
 - [#2585](https://github.com/MahApps/MahApps.Metro/issues/2585) HotKeyBox gives wrong names to multimedia buttons
 - [#2817](https://github.com/MahApps/MahApps.Metro/issues/2817) TransitioningContentControl's TransitionCompleted event fires twice

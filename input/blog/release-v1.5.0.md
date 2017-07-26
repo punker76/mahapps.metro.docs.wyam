@@ -4,7 +4,7 @@ Category: release
 Author: punker76
 ---
 
-## Features / Changes / Fixes
+# Features / Changes / Fixes
 
 - If a dialog is shown in a window other than the MainWindow, `OwningWindow` will be used if available to detect the theme. [#2840](https://github.com/MahApps/MahApps.Metro/pull/2840)
 - Fixed an issue for `DateTimePicker` when the time is cleared if a date is selected. [#2837](https://github.com/MahApps/MahApps.Metro/pull/2837)
@@ -77,7 +77,7 @@ Author: punker76
 ![mahapps_watermark](https://cloud.githubusercontent.com/assets/658431/25019759/14a50b28-208c-11e7-93cb-406fe8b65b7c.gif)
 - Add new `DataGridHelper` with `EnableCellEditAssist` attached property which enabled direct editing for CheckBox and ComboBox cells. (default to false) Thx to [@ButchersBoy](https://github.com/ButchersBoy) (taken from [MaterialDesignInXamlToolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit))
 
-## Closed Issues
+# Closed Issues
 
 - [#2835](https://github.com/MahApps/MahApps.Metro/issues/2835) ShowMessageAnsync() causes exception
 - [#2848](https://github.com/MahApps/MahApps.Metro/issues/2848) HamburgerMenu Command MVVM
