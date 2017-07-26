@@ -1,3 +1,6 @@
+init:
+  - git config --global core.autocrlf true
+
 branches:
   only:
     - master
@@ -40,6 +43,7 @@ on_success:
   # EDIT the origin of your repository - have to reset it here because AppVeyor pulls from SSH, but GitHub won't accept SSH pushes
   - git remote set-url origin https://github.com/punker76/mahapps.metro.docs.wyam
   - git add -A
-  - git commit -a -m "Commit from AppVeyor: $env:APPVEYOR_REPO_COMMIT $env:APPVEYOR_REPO_COMMIT_MESSAGE $env:APPVEYOR_REPO_COMMIT_MESSAGE_EXTENDED"
+  #- git commit -a -m "Commit from AppVeyor: $env:APPVEYOR_REPO_COMMIT $env:APPVEYOR_REPO_COMMIT_MESSAGE $env:APPVEYOR_REPO_COMMIT_MESSAGE_EXTENDED"
+  - git commit -a -m "Commit from AppVeyor"
   - git push
   
