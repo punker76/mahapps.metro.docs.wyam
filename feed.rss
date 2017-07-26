@@ -5,8 +5,8 @@
 		<link>http://punker76.github.io/mahapps.metro.docs.wyam</link>
 		<description />
 		<copyright>2017</copyright>
-		<pubDate>Wed, 26 Jul 2017 13:50:22 GMT</pubDate>
-		<lastBuildDate>Wed, 26 Jul 2017 13:50:22 GMT</lastBuildDate>
+		<pubDate>Wed, 26 Jul 2017 13:55:31 GMT</pubDate>
+		<lastBuildDate>Wed, 26 Jul 2017 13:55:31 GMT</lastBuildDate>
 		<item>
 			<title>Release 1.5.0</title>
 			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.5.0</link>
@@ -210,6 +210,266 @@ TabControlHelper.UnderlineMouseOverSelectedBrush
 &lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2780"&gt;#2780&lt;/a&gt; External Dialogs not visible with MainWindow set to IgnoreTaskbarOnMaximize&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
+		</item>
+		<item>
+			<title>Release 1.4.0</title>
+			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.4.0</link>
+			<description>&lt;p&gt;Don't focus flyout on close &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2671"&gt;#2671&lt;/a&gt; (@ButchersBoy) This hack was introduced with &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/1805"&gt;#1805&lt;/a&gt; which was noticed by manual testing.&lt;/p&gt;</description>
+			<author>punker76</author>
+			<guid>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.4.0</guid>
+			<pubDate>Fri, 23 Dec 2016 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id="features-changes-fixes"&gt;Features / Changes / Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Don't focus flyout on close &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2671"&gt;#2671&lt;/a&gt; (&amp;#64;ButchersBoy) This hack was introduced with &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/1805"&gt;#1805&lt;/a&gt; which was noticed by manual testing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Don't focus the &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/FlyoutsControl"&gt;FlyoutsControl&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fix another &lt;code&gt;TopMost&lt;/code&gt; issue: If the window is top most and you switch to another window the top most will be gone.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Change icon for TimePicker &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2700"&gt;#2700&lt;/a&gt; (&amp;#64;p76984275)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Icon scaling &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2667"&gt;#2667&lt;/a&gt; (&amp;#64;thoemmi)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New property &lt;code&gt;IconScalingMode&lt;/code&gt; to MetroWindow. It's forwarded to &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MultiFrameImage/311E8CC5"&gt;MultiFrameImage.MultiFrameImageMode&lt;/a&gt;&lt;/code&gt; to set the icon scaling.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MultiFrameImageMode.ScaleDownLargerFrame&lt;/code&gt;&lt;br&gt;
+It takes the smallest frame which from the icon which has equal or larger size as the window's icon template. The frame is scaled down it's larger.&lt;br&gt;
+&lt;img src="https://cloud.githubusercontent.com/assets/73690/11567498/8f05e644-99e7-11e5-9a50-b4dcec0a683e.png" class="img-fluid" alt="image"&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MultiFrameImageMode.NoScaleSmallerFrame&lt;/code&gt;&lt;br&gt;
+It takes the largest frame from the window which has equal or smaller size than the window's icon template. The frame is rendered centered if it's smaller.&lt;br&gt;
+&lt;img src="https://cloud.githubusercontent.com/assets/73690/11567646/3bb8e1fc-99e8-11e5-90f5-682d3d87527d.png" class="img-fluid" alt="image"&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Changes for &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker"&gt;DateTimePicker&lt;/a&gt;&lt;/code&gt; and &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePicker"&gt;TimePicker&lt;/a&gt;&lt;/code&gt; &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2710"&gt;#2710&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Change &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker/5F6453F8"&gt;DateTimePicker.SelectedDate&lt;/a&gt;&lt;/code&gt; to &lt;code&gt;BindsTwoWayByDefault&lt;/code&gt;. The reason is that we do not have to use Mode=TwoWay explicit, and DatePicker.SelectedDate has BindsTwoWayByDefault too.&lt;/li&gt;
+&lt;li&gt;[Fix] Issue where Binding issues on DateTimePicker/TimePicker are shown on the output window&lt;/li&gt;
+&lt;li&gt;[Fix] Issue where Hour 0 is not shown when using 24h clock&lt;/li&gt;
+&lt;li&gt;Fix issue where clearing text does not immediately set value to &lt;code&gt;null&lt;/code&gt; but &lt;code&gt;00:00:00&lt;/code&gt; and &lt;code&gt;0001.01.01 00.00.00&lt;/code&gt; respectively&lt;/li&gt;
+&lt;li&gt;Change icon for &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePicker"&gt;TimePicker&lt;/a&gt;&lt;/code&gt; &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2700"&gt;#2700&lt;/a&gt; (&amp;#64;p76984275)&lt;/li&gt;
+&lt;li&gt;Hide &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker"&gt;DateTimePicker&lt;/a&gt;&lt;/code&gt; and &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePicker"&gt;TimePicker&lt;/a&gt;&lt;/code&gt; on lost focus. Fix also Shift+Tab focus moving.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;New &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitView"&gt;SplitView&lt;/a&gt;&lt;/code&gt; and &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenu"&gt;HamburgerMenu&lt;/a&gt;&lt;/code&gt; control &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2704"&gt;#2704&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitView"&gt;SplitView&lt;/a&gt;&lt;/code&gt; source comes from the &lt;code&gt;UniversalWPF&lt;/code&gt; &lt;a href="https://github.com/dotMorten/UniversalWPF"&gt;GitHub repo&lt;/a&gt; (from &amp;#64;dotMorten) with some changes from &amp;#64;Evangelink and &amp;#64;punker76.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenu"&gt;HamburgerMenu&lt;/a&gt;&lt;/code&gt; source comes from the &lt;code&gt;UWPCommunityToolkit&lt;/code&gt; &lt;a href="https://github.com/Microsoft/UWPCommunityToolkit"&gt;GitHub repo&lt;/a&gt;.&lt;br&gt;
+&lt;img src="https://cloud.githubusercontent.com/assets/658431/19662268/0fbc2870-9a37-11e6-8591-3192e9cb220a.png" class="img-fluid" alt="2016-10-24_22h06_08"&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;New dependency properties for &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroWindow"&gt;MetroWindow&lt;/a&gt;&lt;/code&gt; to set the brush and opacity for the overlay if a dialog is shown.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;OverlayBrush&lt;/code&gt; sets the brush used for the dialog overlay.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;OverlayOpacity&lt;/code&gt; sets the opacity used for the dialog overlay (0 = disabled, 1 = full overlay).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &lt;code&gt;TextBox&lt;/code&gt;'s with the styles &lt;code&gt;MetroButtonTextBox&lt;/code&gt; and &lt;code&gt;SearchMetroTextBox&lt;/code&gt; can now use the button also if &lt;code&gt;IsReadOnly="True"&lt;/code&gt; (only if the button command is set)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;New &lt;code&gt;AutoWatermark&lt;/code&gt; attached property at &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TextBoxHelper"&gt;TextBoxHelper&lt;/a&gt;&lt;/code&gt; &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2722"&gt;#2722&lt;/a&gt; (&amp;#64;xxMUROxx) which is able to get the &lt;code&gt;DisplayAttribute&lt;/code&gt; from the bound property in following cases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Binding that is &lt;strong&gt;supported&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;"{Binding Path=Property}"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;"{Binding Path=Property.SubProperty}"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;"{Binding Path=CollectionProperty}"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;"{Binding Path=CollectionProperty[0].SubProperty}"&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Binding that is &lt;strong&gt;not supported&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;"{Binding Path=CollectionProperty[0]}"&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;This property is available for &lt;code&gt;TextBox&lt;/code&gt;, &lt;code&gt;ComboBox&lt;/code&gt;, &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/NumericUpDown"&gt;NumericUpDown&lt;/a&gt;&lt;/code&gt;, &lt;code&gt;DatePicker&lt;/code&gt;, &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePicker"&gt;TimePicker&lt;/a&gt;&lt;/code&gt; and &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker"&gt;DateTimePicker&lt;/a&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout"&gt;Flyout&lt;/a&gt;&lt;/code&gt; changes for better &lt;code&gt;Margin&lt;/code&gt; usage&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This changes affects only users who used the sample from the source which shows how to use the &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/FlyoutsControl"&gt;FlyoutsControl&lt;/a&gt;&lt;/code&gt; actual width and a &lt;code&gt;Margin&lt;/code&gt; for the &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout"&gt;Flyout&lt;/a&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;It's now possible to work without the actual width and use only the &lt;code&gt;Margin&lt;/code&gt; or &lt;code&gt;HorizontalContentAlignemnt&lt;/code&gt; for Left/Right and &lt;code&gt;VerticalContentAnlignment&lt;/code&gt; for Top/Bottom &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout"&gt;Flyout&lt;/a&gt;&lt;/code&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Margin="200 30 0 0"&lt;/code&gt; and &lt;code&gt;Position="Right"&lt;/code&gt; Flyout with left an top Margin&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HorizontalContentAlignment="Stretch"&lt;/code&gt; and &lt;code&gt;Position="Right"&lt;/code&gt; Flyout which covers the whole window&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Changed style names (and changes, see &lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2767"&gt;#2767&lt;/a&gt;) for&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Default &lt;code&gt;Button&lt;/code&gt; (&lt;code&gt;ButtonBase&lt;/code&gt;) -&amp;gt; &lt;code&gt;MahApps.Metro.Styles.MetroButton&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Default &lt;code&gt;ToggleButton&lt;/code&gt; -&amp;gt; &lt;code&gt;MahApps.Metro.Styles.MetroToggleButton&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fixed &lt;code&gt;Expander&lt;/code&gt; closing animation and make it possible to change both animations (expand and collapse). &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2769"&gt;#2769&lt;/a&gt; (&amp;#64;	Alkalinee)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Updated &lt;code&gt;TabControl&lt;/code&gt; and &lt;code&gt;TabItem&lt;/code&gt; style for VS &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2768"&gt;#2768&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Handle TabStripPlacement&lt;/li&gt;
+&lt;li&gt;Default close button action (no closing event yet)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;TextBox&lt;/code&gt; ContextMenu changes &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2772"&gt;#2772&lt;/a&gt;, &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2758"&gt;#2758&lt;/a&gt; by &amp;#64;Deadpikle&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you want to use the default context menu items cut, copy and paste you must do nothing&lt;/li&gt;
+&lt;li&gt;If you want to use your own context menu items without the default items you must do this&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-xaml"&gt;  &amp;lt;TextBox Text="Yeahh"&amp;gt;
+  	&amp;lt;TextBox.ContextMenu&amp;gt;
+  		&amp;lt;ContextMenu&amp;gt;
+  			&amp;lt;MenuItem Header="This is only a Test-Item" /&amp;gt;
+  		&amp;lt;/ContextMenu&amp;gt;
+  	&amp;lt;/TextBox.ContextMenu&amp;gt;
+  &amp;lt;/TextBox&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;If you want to use your own context menu items with the spell checker items then you must do this&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-xaml"&gt;  &amp;lt;TextBox Margin="{StaticResource ControlMargin}"
+  		Controls:TextBoxHelper.IsSpellCheckContextMenuEnabled="True"
+  		Text="Enabled"&amp;gt;
+  	&amp;lt;TextBox.ContextMenu&amp;gt;
+  		&amp;lt;ContextMenu&amp;gt;
+  			&amp;lt;MenuItem Header="This is only a Test-Item" /&amp;gt;
+  		&amp;lt;/ContextMenu&amp;gt;
+  	&amp;lt;/TextBox.ContextMenu&amp;gt;
+  &amp;lt;/TextBox&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;If you want to use your own context menu items with the deafult items then you must do this&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-xaml"&gt;  &amp;lt;TextBox Controls:TextBoxHelper.ClearTextButton="True"
+  		Controls:TextBoxHelper.UseFloatingWatermark="True"
+  		Controls:TextBoxHelper.Watermark="Watermark"&amp;gt;
+  	&amp;lt;TextBox.ContextMenu&amp;gt;
+  		&amp;lt;ContextMenu&amp;gt;
+  			&amp;lt;MenuItem Header="Custom Item" /&amp;gt;
+  			&amp;lt;Separator /&amp;gt;
+  			&amp;lt;MenuItem Style="{DynamicResource MetroMenuItem}" Command="ApplicationCommands.Cut" /&amp;gt;
+  			&amp;lt;MenuItem Style="{DynamicResource MetroMenuItem}" Command="ApplicationCommands.Copy" /&amp;gt;
+  			&amp;lt;MenuItem Style="{DynamicResource MetroMenuItem}" Command="ApplicationCommands.Paste" /&amp;gt;
+  		&amp;lt;/ContextMenu&amp;gt;
+  	&amp;lt;/TextBox.ContextMenu&amp;gt;
+  &amp;lt;/TextBox&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/CustomDialog"&gt;CustomDialog&lt;/a&gt;&lt;/code&gt; improvements &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2775"&gt;#2775&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New overloaded generic method &lt;code&gt;ShowMetroDialogAsync&lt;/code&gt; to create and show custom dialogs (self created dialogs which are inherited from &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/CustomDialog"&gt;CustomDialog&lt;/a&gt;&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;  // create and show a new custom dialog of the given type with the default dialog settings
+  var customBaseMetroDialog = await this.ShowMetroDialogAsync&amp;lt;CustomBaseMetroDialog&amp;gt;();
+
+  // create and show a new custom dialog of the given type with own settings
+  var customBaseMetroDialog = await this.ShowMetroDialogAsync&amp;lt;CustomBaseMetroDialog&amp;gt;(this.metroDialogSettings);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Better handling for dialogs settings also with the already available &lt;code&gt;ShowMetroDialogAsync&lt;/code&gt; method&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;  // create and show custom dialog with default settings
+  await this.ShowMetroDialogAsync(new CustomBaseMetroDialog());
+
+  // create and show custom dialog with own settings
+  await this.ShowMetroDialogAsync(new CustomBaseMetroDialog(this.metroDialogSettings));
+  // or
+  await this.ShowMetroDialogAsync(new CustomBaseMetroDialog(this, this.metroDialogSettings));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;It's now also possible to configure the dialog settings at the custom dialogs class itself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;  protected override &lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/MetroDialogSettings"&gt;MetroDialogSettings&lt;/a&gt; ConfigureSettings(MetroDialogSettings settings)
+  {
+  	return new MyCustomDialogSettings();
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Here is the source for the given samples&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-xaml"&gt;  &amp;lt;dialogs:CustomDialog x:Class="ShowMetroDialogAsyncIssue.CustomBaseMetroDialog"
+  	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  	xmlns:dialogs="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+  	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+  	mc:Ignorable="d" 
+  	d:DesignHeight="300" d:DesignWidth="300"
+  	Title="CustomBaseMetroDialog"&amp;gt;
+  	&amp;lt;StackPanel&amp;gt;
+  		&amp;lt;TextBlock Text="This is a custom dialog based on BaseMetroDialog" /&amp;gt;
+  		&amp;lt;Button Click="Close_OnClick"&amp;gt;Close&amp;lt;/Button&amp;gt;
+  	&amp;lt;/StackPanel&amp;gt;
+  &amp;lt;/dialogs:CustomDialog&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;  namespace ShowMetroDialogAsyncIssue
+  {
+  	using System.Windows;
+  	using MahApps.Metro.Controls;
+  	using MahApps.Metro.Controls.Dialogs;
+
+  	public partial class CustomBaseMetroDialog : &lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/CustomDialog"&gt;CustomDialog&lt;/a&gt;
+  	{
+  		public CustomBaseMetroDialog()
+  		{
+  			InitializeComponent();
+  		}
+
+  		public CustomBaseMetroDialog(MetroDialogSettings settings) : base(settings)
+  		{
+  			InitializeComponent();
+  		}
+
+  		public CustomBaseMetroDialog(MetroWindow parentWindow, &lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/MetroDialogSettings"&gt;MetroDialogSettings&lt;/a&gt; settings) : base(parentWindow, settings)
+  		{
+  			InitializeComponent();
+  		}
+
+  		private void Close_OnClick(object sender, RoutedEventArgs e)
+  		{
+  			(this.OwningWindow ?? (MetroWindow)Application.Current.MainWindow).HideMetroDialogAsync(this);
+  		}
+  	}
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="closed-issues-pull-requests"&gt;Closed Issues / Pull Requests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2674"&gt;#2674&lt;/a&gt;, &lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2671"&gt;#2671&lt;/a&gt; Null Reference Exception in BorderlessWindowBehavior.TopMostChangeNotifierOnValueChanged (&amp;#64;mikeasage)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2671"&gt;#2671&lt;/a&gt; Proposal - Dont focus flyout on close&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2699"&gt;#2699&lt;/a&gt; [Suggestion] TimePicker &amp;amp; DateTimePicker Icon&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2480"&gt;#2480&lt;/a&gt; Windows 10 SplitView&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2715"&gt;#2715&lt;/a&gt; Center mouse click crashes applications on some PCs with an Arithmetic Overflow Exception&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/1709"&gt;#1709&lt;/a&gt; Disable transparency or hide controls in background&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2497"&gt;#2497&lt;/a&gt; Custom dialog background and foreground&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2720"&gt;#2720&lt;/a&gt; DateTimePicker does not hides for Date Change&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2713"&gt;#2713&lt;/a&gt; Weird animation on combobox with only one item&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2746"&gt;#2746&lt;/a&gt; WindowCommands - Toggle Button And Button Access Key Not Underlined When Pressing Alt&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2744"&gt;#2744&lt;/a&gt; Flyout IsPinned = False/True&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2737"&gt;#2737&lt;/a&gt; Design for textbox&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2678"&gt;#2678&lt;/a&gt; SearchMetroTextBox style, IsReadOnly&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2435"&gt;#2435&lt;/a&gt; BackgroundToForegroundConverter returning color may be changed in some accents?&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2712"&gt;#2712&lt;/a&gt; TextBox "Auto" Watermark-text&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2694"&gt;#2694&lt;/a&gt; Maximized Window is "Always on Top" when IgnoreTaskbarOnMaximize=True. Window remains "Always on Top" on Restore&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2734"&gt;#2734&lt;/a&gt; Mahapps UI is locked in Dialog Window after re-login&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2338"&gt;#2338&lt;/a&gt; Impossible to toggle the visibility of TitleBar with UseNoneWindowStyle!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2750"&gt;#2750&lt;/a&gt; Fix for FlipView : Navigation's button visibility and Transition update&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2216"&gt;#2216&lt;/a&gt; Flyout with a margin does not slide out properly&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2752"&gt;#2752&lt;/a&gt; Unable to change the MessageDialog highlighted button&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2687"&gt;#2687&lt;/a&gt; Implement SecureStrng into LoginDialogData and ShowLoginDialog&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2756"&gt;#2756&lt;/a&gt; Flyout Position top element focus inhibited by title bar&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2755"&gt;#2755&lt;/a&gt; MetroAnimatedTabControl first tab font not changing&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2760"&gt;#2760&lt;/a&gt; DatePicker SelectionBackground doesn't match accent color&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2766"&gt;#2766&lt;/a&gt; Flyout - Strange issue with a listview&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2767"&gt;#2767&lt;/a&gt; Button Border not Transparent when Focused.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2346"&gt;#2346&lt;/a&gt; TabControl with VS style&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2090"&gt;#2090&lt;/a&gt; VS TabItem&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/1890"&gt;#1890&lt;/a&gt; How do i use the CloseCommand in StandardTabControl with VS Style&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2261"&gt;#2261&lt;/a&gt; ComboBox context menu.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/pull/2774"&gt;#2774&lt;/a&gt; Fix DataGridRowHeader HorizontalAlignment&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MahApps/MahApps.Metro/issues/2735"&gt;#2735&lt;/a&gt; MetroWindow.ShowMetroDialogAsync odd behaviour with provided DialogSettings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/body&gt;&lt;/html&gt;</content:encoded>
 		</item>
 	</channel>
 </rss>
