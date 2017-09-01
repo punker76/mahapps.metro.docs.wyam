@@ -1,6 +1,6 @@
 Title: Release 1.5.0
 Published: 4/13/2017
-Category: release
+Category: Release
 Author: punker76
 ---
 

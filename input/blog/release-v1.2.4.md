@@ -1,6 +1,6 @@
 Title: Release 1.2.4
 Published: 1/21/2016
-Category: release
+Category: Release
 Author: punker76
 ---
 

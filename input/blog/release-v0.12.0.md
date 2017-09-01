@@ -1,6 +1,6 @@
 Title: Release 0.12.0
 Published: 1/16/2014
-Category: release
+Category: Release
 Author: punker76
 ---
 

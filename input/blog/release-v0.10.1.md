@@ -1,6 +1,6 @@
 Title: Release 0.10.1
 Published: 3/24/2013
-Category: release
+Category: Release
 Author: flagbug
 ---
 

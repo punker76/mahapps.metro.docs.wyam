@@ -1,6 +1,6 @@
 Title: Release 1.4.2
 Published: 1/30/2017
-Category: release
+Category: Release
 Author: punker76
 ---
 

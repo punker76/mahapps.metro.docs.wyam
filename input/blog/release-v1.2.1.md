@@ -1,6 +1,6 @@
 Title: Release 1.2.1
 Published: 1/12/2016
-Category: release
+Category: Release
 Author: punker76
 ---
 
