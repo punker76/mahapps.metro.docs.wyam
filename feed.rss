@@ -5,8 +5,8 @@
 		<link>http://punker76.github.io/mahapps.metro.docs.wyam</link>
 		<description />
 		<copyright>2017</copyright>
-		<pubDate>Wed, 26 Jul 2017 21:53:14 GMT</pubDate>
-		<lastBuildDate>Wed, 26 Jul 2017 21:53:14 GMT</lastBuildDate>
+		<pubDate>Fri, 01 Sep 2017 20:22:44 GMT</pubDate>
+		<lastBuildDate>Fri, 01 Sep 2017 20:22:44 GMT</lastBuildDate>
 		<item>
 			<title>Release 1.5.0</title>
 			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.5.0</link>
@@ -49,9 +49,9 @@
 &lt;ul&gt;
 &lt;li&gt;Adds a new &lt;code&gt;Underlined&lt;/code&gt; attached property to &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TabControlHelper"&gt;TabControlHelper&lt;/a&gt;&lt;/code&gt; which controls the type of the underline type. The old &lt;code&gt;IsUnderlined&lt;/code&gt; property is now obsolete.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;/// &lt;summary&gt;
+&lt;pre&gt;&lt;code&gt;/// &amp;lt;summary&amp;gt;
 /// Specifies the underline position of a TabControl.
-/// &lt;/summary&gt;
+/// &amp;lt;/summary&amp;gt;
 public enum &lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/UnderlinedType"&gt;UnderlinedType&lt;/a&gt;
 {
     None, // nothing
@@ -749,6 +749,18 @@ It takes the largest frame from the window which has equal or smaller size than 
 </content:encoded>
 		</item>
 		<item>
+			<title>Release 1.2.2</title>
+			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.2.2</link>
+			<author>punker76</author>
+			<guid>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.2.2</guid>
+			<pubDate>Tue, 12 Jan 2016 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="bugfixes"&gt;Bugfixes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed strong sign assembly stuff&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+		</item>
+		<item>
 			<title>Release 1.2.1</title>
 			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.2.1</link>
 			<author>punker76</author>
@@ -758,18 +770,6 @@ It takes the largest frame from the window which has equal or smaller size than 
 &lt;ul&gt;
 &lt;li&gt;Fixed hidden focus for TextBox control (and other input controls) #2296 #2304&lt;/li&gt;
 &lt;li&gt;Fixed not working &lt;code&gt;TextBoxHelper.SelectAllOnFocus=&amp;quot;True&amp;quot;&lt;/code&gt; #2307 (&amp;#64;sachokFoX)&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-		</item>
-		<item>
-			<title>Release 1.2.2</title>
-			<link>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.2.2</link>
-			<author>punker76</author>
-			<guid>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.2.2</guid>
-			<pubDate>Tue, 12 Jan 2016 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="bugfixes"&gt;Bugfixes&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Fixed strong sign assembly stuff&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 		</item>

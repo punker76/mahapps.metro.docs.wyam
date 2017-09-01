@@ -4,7 +4,7 @@
 	<id>http://punker76.github.io/mahapps.metro.docs.wyam</id>
 	<title>MahApps.Metro</title>
 	<rights>2017</rights>
-	<updated>2017-07-26T21:53:14Z</updated>
+	<updated>2017-09-01T20:22:44Z</updated>
 	<entry>
 		<author>
 			<name>punker76</name>
@@ -49,9 +49,9 @@
 &lt;ul&gt;
 &lt;li&gt;Adds a new &lt;code&gt;Underlined&lt;/code&gt; attached property to &lt;code&gt;&lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TabControlHelper"&gt;TabControlHelper&lt;/a&gt;&lt;/code&gt; which controls the type of the underline type. The old &lt;code&gt;IsUnderlined&lt;/code&gt; property is now obsolete.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;/// &lt;summary&gt;
+&lt;pre&gt;&lt;code&gt;/// &amp;lt;summary&amp;gt;
 /// Specifies the underline position of a TabControl.
-/// &lt;/summary&gt;
+/// &amp;lt;/summary&amp;gt;
 public enum &lt;a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/UnderlinedType"&gt;UnderlinedType&lt;/a&gt;
 {
     None, // nothing
@@ -766,6 +766,20 @@ It takes the largest frame from the window which has equal or smaller size than 
 		<author>
 			<name>punker76</name>
 		</author>
+		<link href="http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.2.2" />
+		<id>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.2.2</id>
+		<title>Release 1.2.2</title>
+		<updated>2016-01-12T00:00:00Z</updated>
+		<content>&lt;h1 id="bugfixes"&gt;Bugfixes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed strong sign assembly stuff&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	<entry>
+		<author>
+			<name>punker76</name>
+		</author>
 		<link href="http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.2.1" />
 		<id>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.2.1</id>
 		<title>Release 1.2.1</title>
@@ -774,20 +788,6 @@ It takes the largest frame from the window which has equal or smaller size than 
 &lt;ul&gt;
 &lt;li&gt;Fixed hidden focus for TextBox control (and other input controls) #2296 #2304&lt;/li&gt;
 &lt;li&gt;Fixed not working &lt;code&gt;TextBoxHelper.SelectAllOnFocus=&amp;quot;True&amp;quot;&lt;/code&gt; #2307 (&amp;#64;sachokFoX)&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-	</entry>
-	<entry>
-		<author>
-			<name>punker76</name>
-		</author>
-		<link href="http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.2.2" />
-		<id>http://punker76.github.io/mahapps.metro.docs.wyam/blog/release-v1.2.2</id>
-		<title>Release 1.2.2</title>
-		<updated>2016-01-12T00:00:00Z</updated>
-		<content>&lt;h1 id="bugfixes"&gt;Bugfixes&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Fixed strong sign assembly stuff&lt;/li&gt;
 &lt;/ul&gt;
 </content>
 	</entry>
