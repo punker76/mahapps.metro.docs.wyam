@@ -10,7 +10,7 @@
         <link href="/mahapps.metro.docs.wyam/assets/css/mermaid.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/highlight.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
-        <link href="/mahapps.metro.docs.wyam/assets/css/adminlte/adminlte.css" rel="stylesheet">
+        <link href="/mahapps.metro.docs.wyam/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/theme/theme.css" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,400i,700,700i" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -90,7 +90,7 @@
 
     <li class="header"><i class="fa fa-bookmark"></i> Categories</li>    
         <li><a href="/mahapps.metro.docs.wyam/blog/general">general</a></li>
-        <li><a href="/mahapps.metro.docs.wyam/blog/release">Release</a></li>
+        <li><a href="/mahapps.metro.docs.wyam/blog/Release">Release</a></li>
     
     <li class="header"><i class="fa fa-calendar"></i> Archive</li>    
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2017/04">April, 2017</a></li>
@@ -150,24 +150,24 @@
 <li>Added a StatusBar and StatusBarItem style #1558</li>
 <li>Added the <code>TitleVisibility</code> and <code>CloseButtonVisibility</code> properties to the flyouts to control the visibility of the header.</li>
 <li>Added the <code>ButtonHelper.PreserveTextCase</code> attached property to control the automatic upper and lower casing of certain buttons. #1622</li>
-<li>If an .ico file contains multiple icon sizes, <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metrowindow">MetroWindow</a></code> now automatically selects the optimal icon size. #1242 #1628</li>
-<li><code>ShowMetroDialogAsync</code> now accepts <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/metrodialogsettings">MetroDialogSettings</a></code> as argument so custom dialogs derived from the <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/customdialog">CustomDialog</a></code> class can have a fade-in and fade-out animation</li>
-<li>The <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls/toggleswitch">ToggleSwitch</a></code> control can now be dragged with the mouse to change the enabled state #1652 #1595</li>
+<li>If an .ico file contains multiple icon sizes, <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroWindow">MetroWindow</a></code> now automatically selects the optimal icon size. #1242 #1628</li>
+<li><code>ShowMetroDialogAsync</code> now accepts <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/MetroDialogSettings">MetroDialogSettings</a></code> as argument so custom dialogs derived from the <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/CustomDialog">CustomDialog</a></code> class can have a fade-in and fade-out animation</li>
+<li>The <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitch">ToggleSwitch</a></code> control can now be dragged with the mouse to change the enabled state #1652 #1595</li>
 <li>The <code>CleanWindow</code>'s close button now has a red background when hovering with the mouse.</li>
 </ul>
 <h1 id="changes">Changes</h1>
 <ul>
-<li>The <code>IsOpenChangedEvent</code> of the <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls/flyout">Flyout</a></code> control is now a routed event</li>
-<li>The animation of the <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls/flyout">Flyout</a></code> control matches the Windows 8 flyout behavior more closely #1460</li>
+<li>The <code>IsOpenChangedEvent</code> of the <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout">Flyout</a></code> control is now a routed event</li>
+<li>The animation of the <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout">Flyout</a></code> control matches the Windows 8 flyout behavior more closely #1460</li>
 <li>Changed the event names of the 'NumericUpDown' control control #1518</li>
-<li>Split up the <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls/controlshelper">ControlsHelper</a></code> class into multiple more granular helper classes #1520 #1582</li>
-<li><code>SimpleDialog</code> has been renamed to <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/customdialog">CustomDialog</a></code> #1613</li>
-<li><code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/basemetrodialog">BaseMetroDialog</a></code> now inherits from <code>ContentControl</code> instead of <code>Control</code>.
+<li>Split up the <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ControlsHelper">ControlsHelper</a></code> class into multiple more granular helper classes #1520 #1582</li>
+<li><code>SimpleDialog</code> has been renamed to <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/CustomDialog">CustomDialog</a></code> #1613</li>
+<li><code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/BaseMetroDialog">BaseMetroDialog</a></code> now inherits from <code>ContentControl</code> instead of <code>Control</code>.
 The <code>DialogBody</code> property has effectively been replaced by the <code>Content</code> property. #1615</li>
 <li>All elements in the titlebar now use the <code>IdealForegroundBrush</code> for a better contrast to the accent color. #1611</li>
 <li>The text in dialog buttons isn't lowercase by default anymore.</li>
-<li>Eliminated the need to pass the owning <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls/basemetrotabcontrol">BaseMetroTabControl</a></code> to <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metrotabitem">MetroTabItem</a></code> #1624</li>
-<li><code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls/textboxhelper">TextBoxHelper</a></code> is now written with an uppercase <code>B</code> to match <code>TextBox</code>.</li>
+<li>Eliminated the need to pass the owning <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/BaseMetroTabControl">BaseMetroTabControl</a></code> to <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroTabItem">MetroTabItem</a></code> #1624</li>
+<li><code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TextBoxHelper">TextBoxHelper</a></code> is now written with an uppercase <code>B</code> to match <code>TextBox</code>.</li>
 </ul>
 <h1 id="bugfixes">Bugfixes</h1>
 <ul>
@@ -178,10 +178,10 @@ The <code>DialogBody</code> property has effectively been replaced by the <code>
 <li>Fixed bad Combobox behaviour (Popup dropdown height) with new items #1521</li>
 <li>Fixed not showing window commands and buttons if a flyout is open by default #1627</li>
 <li>Fixed closing a tab doesn't work under specific circumstances #1639</li>
-<li>Fixed the <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls/toggleswitch">ToggleSwitch</a></code> control not respecting the height and width properties. #1652 #1466</li>
-<li>Fixed <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metroprogressbar">MetroProgressBar</a></code> System.Windows.Media.Animation Warning 6 #1664</li>
+<li>Fixed the <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitch">ToggleSwitch</a></code> control not respecting the height and width properties. #1652 #1466</li>
+<li>Fixed <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroProgressBar">MetroProgressBar</a></code> System.Windows.Media.Animation Warning 6 #1664</li>
 <li>Fixed opening animation of dynamically created flyouts #1665 #1655</li>
-<li>Fixed <code><a href="/mahapps.metro.docs.wyam/api/mahapps.metro.controls/windowsettings">WindowSettings</a></code> SaveWindowPosition saves to position 0,0 if window not shown #1671 #1672</li>
+<li>Fixed <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/WindowSettings">WindowSettings</a></code> SaveWindowPosition saves to position 0,0 if window not shown #1671 #1672</li>
 <li>Fixed memory leak and exception with dynamically created Flyouts (mostly happens with Caliburn) #1681</li>
 <li>Fixed the focus border not showing up for message dialog buttons #1679 #1684</li>
 <li>Fixed the automatic focus for dialogs #1679 #1684</li>
