@@ -34,534 +34,6 @@ var searchModule = function() {
 
     a({
         id:0,
-        title:"ToggleButtonHelper",
-        content:"ToggleButtonHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:1,
-        title:"IsNullConverter",
-        content:"IsNullConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:2,
-        title:"NullToUnsetValueConverter",
-        content:"NullToUnsetValueConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:3,
-        title:"ComboBoxHelper",
-        content:"ComboBoxHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:4,
-        title:"DialogStateChangedEventArgs",
-        content:"DialogStateChangedEventArgs",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:5,
-        title:"SplitView",
-        content:"SplitView",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:6,
-        title:"MarkupConverter",
-        content:"MarkupConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:7,
-        title:"ToggleSwitch",
-        content:"ToggleSwitch",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:8,
-        title:"DialogManager",
-        content:"DialogManager",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:9,
-        title:"Tile",
-        content:"Tile",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:10,
-        title:"WindowsSettingBehaviour",
-        content:"WindowsSettingBehaviour",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:11,
-        title:"SetFlyoutOpenAction",
-        content:"SetFlyoutOpenAction",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:12,
-        title:"DialogCoordinator",
-        content:"DialogCoordinator",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:13,
-        title:"RangeSelectionChangedEventArgs",
-        content:"RangeSelectionChangedEventArgs",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:14,
-        title:"WindowButtonCommands ClosingWindowEventHandler",
-        content:"WindowButtonCommands ClosingWindowEventHandler",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:15,
-        title:"DataGridNumericUpDownColumn",
-        content:"DataGridNumericUpDownColumn",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:16,
-        title:"Badged",
-        content:"Badged",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:17,
-        title:"LoginDialog",
-        content:"LoginDialog",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:18,
-        title:"Spelling",
-        content:"Spelling",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:19,
-        title:"LoginDialogSettings",
-        content:"LoginDialogSettings",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:20,
-        title:"WinApiHelper",
-        content:"WinApiHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:21,
-        title:"MetroWindow",
-        content:"MetroWindow",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:22,
-        title:"MouseWheelChange",
-        content:"MouseWheelChange",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:23,
-        title:"RevealImage",
-        content:"RevealImage",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:24,
-        title:"WindowButtonCommands",
-        content:"WindowButtonCommands",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:25,
-        title:"FontSizeOffsetConverter",
-        content:"FontSizeOffsetConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:26,
-        title:"ReloadBehavior",
-        content:"ReloadBehavior",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:27,
-        title:"FlyoutsControl",
-        content:"FlyoutsControl",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:28,
-        title:"SplitViewPanePlacement",
-        content:"SplitViewPanePlacement",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:29,
-        title:"TimePicker",
-        content:"TimePicker",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:30,
-        title:"ProgressDialogController",
-        content:"ProgressDialogController",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:31,
-        title:"BaseMetroDialog",
-        content:"BaseMetroDialog",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:32,
-        title:"HamburgerMenuIconItem",
-        content:"HamburgerMenuIconItem",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:33,
-        title:"DateTimePicker",
-        content:"DateTimePicker",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:34,
-        title:"StringToVisibilityConverter",
-        content:"StringToVisibilityConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:35,
-        title:"UnderlinedType",
-        content:"UnderlinedType",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:36,
-        title:"WindowCommandsOverlayBehavior",
-        content:"WindowCommandsOverlayBehavior",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:37,
-        title:"RangeSlider",
-        content:"RangeSlider",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:38,
-        title:"MetroContentControl",
-        content:"MetroContentControl",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:39,
-        title:"MetroTabItemCloseButtonWidthConverter",
-        content:"MetroTabItemCloseButtonWidthConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:40,
-        title:"CloseTabItemAction",
-        content:"CloseTabItemAction",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:41,
-        title:"RectangleHeightToRadiusConverter",
-        content:"RectangleHeightToRadiusConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:42,
-        title:"MetroNavigationWindow",
-        content:"MetroNavigationWindow",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:43,
-        title:"MetroTabItem",
-        content:"MetroTabItem",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:44,
-        title:"StylizedBehaviors",
-        content:"StylizedBehaviors",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:45,
-        title:"MetroThumbContentControlAutomationPeer",
-        content:"MetroThumbContentControlAutomationPeer",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:46,
-        title:"TabControlHelper",
-        content:"TabControlHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:47,
-        title:"ClockDegreeConverter",
-        content:"ClockDegreeConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:48,
-        title:"ResizeModeMinMaxButtonVisibilityConverter",
-        content:"ResizeModeMinMaxButtonVisibilityConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:49,
-        title:"FlipView",
-        content:"FlipView",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:50,
-        title:"CustomValidationPopup",
-        content:"CustomValidationPopup",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:51,
-        title:"MessageDialogStyle",
-        content:"MessageDialogStyle",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:52,
-        title:"DatePickerTextBoxBehavior",
-        content:"DatePickerTextBoxBehavior",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:53,
-        title:"HamburgerMenuItemCollection",
-        content:"HamburgerMenuItemCollection",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:54,
-        title:"MetroAnimatedSingleRowTabControl",
-        content:"MetroAnimatedSingleRowTabControl",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:55,
-        title:"WINDOWPLACEMENT",
-        content:"WINDOWPLACEMENT",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:56,
-        title:"MessageDialog",
-        content:"MessageDialog",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:57,
-        title:"HamburgerMenuItem",
-        content:"HamburgerMenuItem",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:58,
-        title:"HamburgerMenu",
-        content:"HamburgerMenu",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:59,
-        title:"Accent",
-        content:"Accent",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:60,
-        title:"BackgroundToForegroundConverter",
-        content:"BackgroundToForegroundConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:61,
-        title:"ClosingWindowEventHandlerArgs",
-        content:"ClosingWindowEventHandlerArgs",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:62,
-        title:"RangeParameterChangedEventArgs",
-        content:"RangeParameterChangedEventArgs",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:63,
-        title:"ProgressDialog",
-        content:"ProgressDialog",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:64,
-        title:"HotKey",
-        content:"HotKey",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:65,
-        title:"InputDialog",
-        content:"InputDialog",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:66,
         title:"GroupBoxHelper",
         content:"GroupBoxHelper",
         description:'',
@@ -569,255 +41,31 @@ var searchModule = function() {
     });
 
     a({
-        id:67,
-        title:"Underline",
-        content:"Underline",
+        id:1,
+        title:"NullToUnsetValueConverter",
+        content:"NullToUnsetValueConverter",
         description:'',
         tags:''
     });
 
     a({
-        id:68,
-        title:"TiltBehavior",
-        content:"TiltBehavior",
+        id:2,
+        title:"RangeParameterChangeType",
+        content:"RangeParameterChangeType",
         description:'',
         tags:''
     });
 
     a({
-        id:69,
-        title:"BaseMetroTabControl TabItemClosingEventHandler",
-        content:"BaseMetroTabControl TabItemClosingEventHandler",
+        id:3,
+        title:"MessageDialogStyle",
+        content:"MessageDialogStyle",
         description:'',
         tags:''
     });
 
     a({
-        id:70,
-        title:"POINT",
-        content:"POINT",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:71,
-        title:"Utils",
-        content:"Utils",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:72,
-        title:"TreeViewMarginConverter",
-        content:"TreeViewMarginConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:73,
-        title:"IWindowPlacementSettings",
-        content:"IWindowPlacementSettings",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:74,
-        title:"LayoutInvalidationCatcher",
-        content:"LayoutInvalidationCatcher",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:75,
-        title:"IMetroThumb",
-        content:"IMetroThumb",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:76,
-        title:"SplitViewTemplateSettings",
-        content:"SplitViewTemplateSettings",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:77,
-        title:"DataGridRowHelper",
-        content:"DataGridRowHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:78,
-        title:"ControlsHelper",
-        content:"ControlsHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:79,
-        title:"ExpanderHelper",
-        content:"ExpanderHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:80,
-        title:"PivotItem",
-        content:"PivotItem",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:81,
-        title:"TimePickerFormat",
-        content:"TimePickerFormat",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:82,
-        title:"ToUpperConverter",
-        content:"ToUpperConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:83,
-        title:"ThemeManager",
-        content:"ThemeManager",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:84,
-        title:"ContentControlEx",
-        content:"ContentControlEx",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:85,
-        title:"NumericUpDownChangedRoutedEventHandler",
-        content:"NumericUpDownChangedRoutedEventHandler",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:86,
-        title:"GridLengthAnimation",
-        content:"GridLengthAnimation",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:87,
-        title:"TimePickerBase",
-        content:"TimePickerBase",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:88,
-        title:"BaseMetroTabControl",
-        content:"BaseMetroTabControl",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:89,
-        title:"ToLowerConverter",
-        content:"ToLowerConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:90,
-        title:"GlowWindowBehavior",
-        content:"GlowWindowBehavior",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:91,
-        title:"RangeSelectionChangedEventHandler",
-        content:"RangeSelectionChangedEventHandler",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:92,
-        title:"WindowCommandsItem",
-        content:"WindowCommandsItem",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:93,
-        title:"ItemClickEventHandler",
-        content:"ItemClickEventHandler",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:94,
-        title:"DataGridHelper",
-        content:"DataGridHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:95,
-        title:"FlyoutTheme",
-        content:"FlyoutTheme",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:96,
-        title:"ScrollViewerOffsetMediator",
-        content:"ScrollViewerOffsetMediator",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:97,
-        title:"WindowCommands",
-        content:"WindowCommands",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:98,
+        id:4,
         title:"AppTheme",
         content:"AppTheme",
         description:'',
@@ -825,9 +73,761 @@ var searchModule = function() {
     });
 
     a({
-        id:99,
+        id:5,
+        title:"DialogParticipation",
+        content:"DialogParticipation",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:6,
+        title:"ThemeManager",
+        content:"ThemeManager",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:7,
+        title:"FlipViewItem",
+        content:"FlipViewItem",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:8,
+        title:"HamburgerMenuItemCollection",
+        content:"HamburgerMenuItemCollection",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:9,
+        title:"MetroThumbContentControlDragStartedEventArgs",
+        content:"MetroThumbContentControlDragStartedEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:10,
+        title:"TimePicker",
+        content:"TimePicker",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:11,
+        title:"MetroWindow",
+        content:"MetroWindow",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:12,
+        title:"FlipView",
+        content:"FlipView",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:13,
+        title:"GridLengthAnimation",
+        content:"GridLengthAnimation",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:14,
+        title:"ButtonsAlignment",
+        content:"ButtonsAlignment",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:15,
+        title:"ProgressDialog",
+        content:"ProgressDialog",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:16,
+        title:"OnThemeChangedEventArgs",
+        content:"OnThemeChangedEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:17,
+        title:"VisibilityHelper",
+        content:"VisibilityHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:18,
+        title:"WindowCommandsOverlayBehavior",
+        content:"WindowCommandsOverlayBehavior",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:19,
+        title:"Glow",
+        content:"Glow",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:20,
+        title:"RangeSelectionChangedEventArgs",
+        content:"RangeSelectionChangedEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:21,
+        title:"WindowsSettingBehaviour",
+        content:"WindowsSettingBehaviour",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:22,
+        title:"HamburgerMenuGlyphItem",
+        content:"HamburgerMenuGlyphItem",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:23,
+        title:"ClosingWindowEventHandlerArgs",
+        content:"ClosingWindowEventHandlerArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:24,
+        title:"StringToVisibilityConverter",
+        content:"StringToVisibilityConverter",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:25,
+        title:"Accent",
+        content:"Accent",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:26,
+        title:"HotKey",
+        content:"HotKey",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:27,
+        title:"HotKeyBox",
+        content:"HotKeyBox",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:28,
+        title:"NumericUpDownChangedRoutedEventArgs",
+        content:"NumericUpDownChangedRoutedEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:29,
+        title:"Planerator",
+        content:"Planerator",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:30,
+        title:"MetroTabItemCloseButtonWidthConverter",
+        content:"MetroTabItemCloseButtonWidthConverter",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:31,
+        title:"IMetroThumb",
+        content:"IMetroThumb",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:32,
+        title:"ToggleSwitch",
+        content:"ToggleSwitch",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:33,
+        title:"IWindowPlacementSettings",
+        content:"IWindowPlacementSettings",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:34,
+        title:"RangeParameterChangedEventHandler",
+        content:"RangeParameterChangedEventHandler",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:35,
+        title:"MetroNavigationWindow",
+        content:"MetroNavigationWindow",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:36,
+        title:"WindowCommandsItem",
+        content:"WindowCommandsItem",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:37,
+        title:"MetroTabControl",
+        content:"MetroTabControl",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:38,
+        title:"WindowButtonCommands",
+        content:"WindowButtonCommands",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:39,
+        title:"LoginDialogData",
+        content:"LoginDialogData",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:40,
+        title:"TimePickerBaseSelectionChangedEventArgs",
+        content:"TimePickerBaseSelectionChangedEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:41,
+        title:"FlyoutTheme",
+        content:"FlyoutTheme",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:42,
+        title:"TimePickerFormat",
+        content:"TimePickerFormat",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:43,
+        title:"TabControlSelectFirstVisibleTabBehavior",
+        content:"TabControlSelectFirstVisibleTabBehavior",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:44,
+        title:"Pivot",
+        content:"Pivot",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:45,
+        title:"ContentControlEx",
+        content:"ContentControlEx",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:46,
+        title:"BorderlessWindowBehavior",
+        content:"BorderlessWindowBehavior",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:47,
+        title:"BaseMetroTabControl TabItemClosingEventArgs",
+        content:"BaseMetroTabControl TabItemClosingEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:48,
+        title:"Badged",
+        content:"Badged",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:49,
+        title:"POINT",
+        content:"POINT",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:50,
+        title:"PasswordBoxBindingBehavior",
+        content:"PasswordBoxBindingBehavior",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:51,
+        title:"GlowDirection",
+        content:"GlowDirection",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:52,
+        title:"TabControlHelper",
+        content:"TabControlHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:53,
+        title:"DataGridHelper",
+        content:"DataGridHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:54,
+        title:"DataGridNumericUpDownColumn",
+        content:"DataGridNumericUpDownColumn",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:55,
+        title:"RangeParameterChangedEventArgs",
+        content:"RangeParameterChangedEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:56,
+        title:"ToUpperConverter",
+        content:"ToUpperConverter",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:57,
+        title:"ExpanderHelper",
+        content:"ExpanderHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:58,
+        title:"WindowCommands",
+        content:"WindowCommands",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:59,
+        title:"MouseWheelChange",
+        content:"MouseWheelChange",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:60,
+        title:"NumericUpDown",
+        content:"NumericUpDown",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:61,
+        title:"MetroThumbContentControlDragCompletedEventArgs",
+        content:"MetroThumbContentControlDragCompletedEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:62,
+        title:"RevealImage",
+        content:"RevealImage",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:63,
+        title:"Position",
+        content:"Position",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:64,
+        title:"ProgressDialogController",
+        content:"ProgressDialogController",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:65,
         title:"RECT",
         content:"RECT",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:66,
+        title:"WinApiHelper",
+        content:"WinApiHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:67,
+        title:"BindableResourceBehavior",
+        content:"BindableResourceBehavior",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:68,
+        title:"BaseMetroTabControl",
+        content:"BaseMetroTabControl",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:69,
+        title:"FlyoutsControl",
+        content:"FlyoutsControl",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:70,
+        title:"ScrollBarHelper",
+        content:"ScrollBarHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:71,
+        title:"Flyout",
+        content:"Flyout",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:72,
+        title:"SplitButton",
+        content:"SplitButton",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:73,
+        title:"MetroAnimatedTabControl",
+        content:"MetroAnimatedTabControl",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:74,
+        title:"DialogManager",
+        content:"DialogManager",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:75,
+        title:"ControlsHelper",
+        content:"ControlsHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:76,
+        title:"BaseMetroTabControl TabItemClosingEventHandler",
+        content:"BaseMetroTabControl TabItemClosingEventHandler",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:77,
+        title:"TreeViewItemExtensions",
+        content:"TreeViewItemExtensions",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:78,
+        title:"TiltBehavior",
+        content:"TiltBehavior",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:79,
+        title:"TreeViewMarginConverter",
+        content:"TreeViewMarginConverter",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:80,
+        title:"ItemClickEventHandler",
+        content:"ItemClickEventHandler",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:81,
+        title:"HamburgerMenu",
+        content:"HamburgerMenu",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:82,
+        title:"SplitViewPaneClosingEventArgs",
+        content:"SplitViewPaneClosingEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:83,
+        title:"MetroDialogSettings",
+        content:"MetroDialogSettings",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:84,
+        title:"Spelling",
+        content:"Spelling",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:85,
+        title:"MetroWindow FlyoutStatusChangedRoutedEventArgs",
+        content:"MetroWindow FlyoutStatusChangedRoutedEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:86,
+        title:"SplitViewDisplayMode",
+        content:"SplitViewDisplayMode",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:87,
+        title:"ButtonHelper",
+        content:"ButtonHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:88,
+        title:"IDialogCoordinator",
+        content:"IDialogCoordinator",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:89,
+        title:"CustomValidationPopup",
+        content:"CustomValidationPopup",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:90,
+        title:"HamburgerMenuImageItem",
+        content:"HamburgerMenuImageItem",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:91,
+        title:"MetroThumb",
+        content:"MetroThumb",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:92,
+        title:"SplitViewPanePlacement",
+        content:"SplitViewPanePlacement",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:93,
+        title:"HamburgerMenuIconItem",
+        content:"HamburgerMenuIconItem",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:94,
+        title:"TreeHelper",
+        content:"TreeHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:95,
+        title:"IsNullConverter",
+        content:"IsNullConverter",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:96,
+        title:"ThicknessToDoubleConverter",
+        content:"ThicknessToDoubleConverter",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:97,
+        title:"MetroThumbContentControlAutomationPeer",
+        content:"MetroThumbContentControlAutomationPeer",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:98,
+        title:"SplitViewTemplateSettings",
+        content:"SplitViewTemplateSettings",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:99,
+        title:"SliderHelper",
+        content:"SliderHelper",
         description:'',
         tags:''
     });
@@ -842,430 +842,14 @@ var searchModule = function() {
 
     a({
         id:101,
-        title:"MetroWindow FlyoutStatusChangedRoutedEventArgs",
-        content:"MetroWindow FlyoutStatusChangedRoutedEventArgs",
+        title:"GlowWindowBehavior",
+        content:"GlowWindowBehavior",
         description:'',
         tags:''
     });
 
     a({
         id:102,
-        title:"GlowDirection",
-        content:"GlowDirection",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:103,
-        title:"TextBoxHelper",
-        content:"TextBoxHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:104,
-        title:"IDialogCoordinator",
-        content:"IDialogCoordinator",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:105,
-        title:"Position",
-        content:"Position",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:106,
-        title:"SliderHelper",
-        content:"SliderHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:107,
-        title:"MetroTabControl",
-        content:"MetroTabControl",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:108,
-        title:"TabControlSelectFirstVisibleTabBehavior",
-        content:"TabControlSelectFirstVisibleTabBehavior",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:109,
-        title:"HamburgerMenuImageItem",
-        content:"HamburgerMenuImageItem",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:110,
-        title:"ThicknessBindingConverter",
-        content:"ThicknessBindingConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:111,
-        title:"TimePartVisibility",
-        content:"TimePartVisibility",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:112,
-        title:"MultiFrameImage",
-        content:"MultiFrameImage",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:113,
-        title:"ScrollBarHelper",
-        content:"ScrollBarHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:114,
-        title:"ButtonHelper",
-        content:"ButtonHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:115,
-        title:"SplitViewPaneClosingEventArgs",
-        content:"SplitViewPaneClosingEventArgs",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:116,
-        title:"ThicknessSideType",
-        content:"ThicknessSideType",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:117,
-        title:"ToggleSwitchButton",
-        content:"ToggleSwitchButton",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:118,
-        title:"OnThemeChangedEventArgs",
-        content:"OnThemeChangedEventArgs",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:119,
-        title:"Theme",
-        content:"Theme",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:120,
-        title:"MultiFrameImageMode",
-        content:"MultiFrameImageMode",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:121,
-        title:"MetroProgressBar",
-        content:"MetroProgressBar",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:122,
-        title:"TreeViewItemExtensions",
-        content:"TreeViewItemExtensions",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:123,
-        title:"MetroThumbContentControl",
-        content:"MetroThumbContentControl",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:124,
-        title:"Glow",
-        content:"Glow",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:125,
-        title:"BorderlessWindowBehavior",
-        content:"BorderlessWindowBehavior",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:126,
-        title:"LoginDialogData",
-        content:"LoginDialogData",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:127,
-        title:"DataGridCellHelper",
-        content:"DataGridCellHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:128,
-        title:"NumericUpDown",
-        content:"NumericUpDown",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:129,
-        title:"RangeParameterChangeType",
-        content:"RangeParameterChangeType",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:130,
-        title:"NumericUpDownChangedRoutedEventArgs",
-        content:"NumericUpDownChangedRoutedEventArgs",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:131,
-        title:"MetroAnimatedTabControl",
-        content:"MetroAnimatedTabControl",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:132,
-        title:"ClipBorder",
-        content:"ClipBorder",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:133,
-        title:"MouseWheelState",
-        content:"MouseWheelState",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:134,
-        title:"MetroThumb",
-        content:"MetroThumb",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:135,
-        title:"MahAppsException",
-        content:"MahAppsException",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:136,
-        title:"TransitioningContentControl",
-        content:"TransitioningContentControl",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:137,
-        title:"BindableResourceBehavior",
-        content:"BindableResourceBehavior",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:138,
-        title:"RangeParameterChangedEventHandler",
-        content:"RangeParameterChangedEventHandler",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:139,
-        title:"Extensions",
-        content:"Extensions",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:140,
-        title:"DropDownButton",
-        content:"DropDownButton",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:141,
-        title:"PasswordBoxBindingBehavior",
-        content:"PasswordBoxBindingBehavior",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:142,
-        title:"Planerator",
-        content:"Planerator",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:143,
-        title:"SplitButton",
-        content:"SplitButton",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:144,
-        title:"VisibilityHelper",
-        content:"VisibilityHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:145,
-        title:"BaseMetroTabControl TabItemClosingEventArgs",
-        content:"BaseMetroTabControl TabItemClosingEventArgs",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:146,
-        title:"ButtonsAlignment",
-        content:"ButtonsAlignment",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:147,
-        title:"OffOnConverter",
-        content:"OffOnConverter",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:148,
-        title:"HotKeyBox",
-        content:"HotKeyBox",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:149,
-        title:"HamburgerMenuGlyphItem",
-        content:"HamburgerMenuGlyphItem",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:150,
-        title:"PasswordBoxHelper",
-        content:"PasswordBoxHelper",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:151,
-        title:"TimePickerBaseSelectionChangedEventArgs",
-        content:"TimePickerBaseSelectionChangedEventArgs",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:152,
-        title:"ItemClickEventArgs",
-        content:"ItemClickEventArgs",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:153,
-        title:"MessageDialogResult",
-        content:"MessageDialogResult",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:154,
         title:"TransitionType",
         content:"TransitionType",
         description:'',
@@ -1273,87 +857,135 @@ var searchModule = function() {
     });
 
     a({
-        id:155,
-        title:"MetroDialogSettings",
-        content:"MetroDialogSettings",
+        id:103,
+        title:"ToLowerConverter",
+        content:"ToLowerConverter",
         description:'',
         tags:''
     });
 
     a({
-        id:156,
-        title:"CustomDialog",
-        content:"CustomDialog",
+        id:104,
+        title:"RangeSelectionChangedEventHandler",
+        content:"RangeSelectionChangedEventHandler",
         description:'',
         tags:''
     });
 
     a({
-        id:157,
-        title:"Flyout",
-        content:"Flyout",
+        id:105,
+        title:"MouseWheelState",
+        content:"MouseWheelState",
         description:'',
         tags:''
     });
 
     a({
-        id:158,
-        title:"StylizedBehaviorCollection",
-        content:"StylizedBehaviorCollection",
+        id:106,
+        title:"TimePickerBase",
+        content:"TimePickerBase",
         description:'',
         tags:''
     });
 
     a({
-        id:159,
-        title:"FlipViewItem",
-        content:"FlipViewItem",
+        id:107,
+        title:"WINDOWPLACEMENT",
+        content:"WINDOWPLACEMENT",
         description:'',
         tags:''
     });
 
     a({
-        id:160,
-        title:"MetroThumbContentControlDragStartedEventArgs",
-        content:"MetroThumbContentControlDragStartedEventArgs",
+        id:108,
+        title:"MahAppsException",
+        content:"MahAppsException",
         description:'',
         tags:''
     });
 
     a({
-        id:161,
-        title:"MetroThumbContentControlDragCompletedEventArgs",
-        content:"MetroThumbContentControlDragCompletedEventArgs",
+        id:109,
+        title:"Utils",
+        content:"Utils",
         description:'',
         tags:''
     });
 
     a({
-        id:162,
-        title:"SplitViewDisplayMode",
-        content:"SplitViewDisplayMode",
+        id:110,
+        title:"MetroProgressBar",
+        content:"MetroProgressBar",
         description:'',
         tags:''
     });
 
     a({
-        id:163,
-        title:"ThicknessToDoubleConverter",
-        content:"ThicknessToDoubleConverter",
+        id:111,
+        title:"BackgroundToForegroundConverter",
+        content:"BackgroundToForegroundConverter",
         description:'',
         tags:''
     });
 
     a({
-        id:164,
-        title:"Pivot",
-        content:"Pivot",
+        id:112,
+        title:"HamburgerMenuItem",
+        content:"HamburgerMenuItem",
         description:'',
         tags:''
     });
 
     a({
-        id:165,
+        id:113,
+        title:"RangeSlider",
+        content:"RangeSlider",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:114,
+        title:"WindowButtonCommands ClosingWindowEventHandler",
+        content:"WindowButtonCommands ClosingWindowEventHandler",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:115,
+        title:"WindowSettings",
+        content:"WindowSettings",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:116,
+        title:"MetroThumbContentControl",
+        content:"MetroThumbContentControl",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:117,
+        title:"Extensions",
+        content:"Extensions",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:118,
+        title:"RectangleHeightToRadiusConverter",
+        content:"RectangleHeightToRadiusConverter",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:119,
         title:"MetroDialogColorScheme",
         content:"MetroDialogColorScheme",
         description:'',
@@ -1361,1040 +993,1408 @@ var searchModule = function() {
     });
 
     a({
+        id:120,
+        title:"FontSizeOffsetConverter",
+        content:"FontSizeOffsetConverter",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:121,
+        title:"ComboBoxHelper",
+        content:"ComboBoxHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:122,
+        title:"LoginDialog",
+        content:"LoginDialog",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:123,
+        title:"LoginDialogSettings",
+        content:"LoginDialogSettings",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:124,
+        title:"DataGridCellHelper",
+        content:"DataGridCellHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:125,
+        title:"UnderlinedType",
+        content:"UnderlinedType",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:126,
+        title:"DropDownButton",
+        content:"DropDownButton",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:127,
+        title:"Theme",
+        content:"Theme",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:128,
+        title:"DateTimePicker",
+        content:"DateTimePicker",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:129,
+        title:"MultiFrameImageMode",
+        content:"MultiFrameImageMode",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:130,
+        title:"MetroTabItem",
+        content:"MetroTabItem",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:131,
+        title:"ThicknessSideType",
+        content:"ThicknessSideType",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:132,
+        title:"ToggleSwitchButton",
+        content:"ToggleSwitchButton",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:133,
+        title:"LayoutInvalidationCatcher",
+        content:"LayoutInvalidationCatcher",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:134,
+        title:"DatePickerTextBoxBehavior",
+        content:"DatePickerTextBoxBehavior",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:135,
+        title:"TransitioningContentControl",
+        content:"TransitioningContentControl",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:136,
+        title:"NumericUpDownChangedRoutedEventHandler",
+        content:"NumericUpDownChangedRoutedEventHandler",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:137,
+        title:"MessageDialog",
+        content:"MessageDialog",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:138,
+        title:"ToggleButtonHelper",
+        content:"ToggleButtonHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:139,
+        title:"BaseMetroDialog",
+        content:"BaseMetroDialog",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:140,
+        title:"StylizedBehaviorCollection",
+        content:"StylizedBehaviorCollection",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:141,
+        title:"ThicknessBindingConverter",
+        content:"ThicknessBindingConverter",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:142,
+        title:"DialogCoordinator",
+        content:"DialogCoordinator",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:143,
+        title:"MessageDialogResult",
+        content:"MessageDialogResult",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:144,
+        title:"MetroContentControl",
+        content:"MetroContentControl",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:145,
+        title:"SetFlyoutOpenAction",
+        content:"SetFlyoutOpenAction",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:146,
+        title:"ResizeModeMinMaxButtonVisibilityConverter",
+        content:"ResizeModeMinMaxButtonVisibilityConverter",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:147,
+        title:"StylizedBehaviors",
+        content:"StylizedBehaviors",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:148,
+        title:"TimePartVisibility",
+        content:"TimePartVisibility",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:149,
+        title:"MetroAnimatedSingleRowTabControl",
+        content:"MetroAnimatedSingleRowTabControl",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:150,
+        title:"ItemClickEventArgs",
+        content:"ItemClickEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:151,
+        title:"ReloadBehavior",
+        content:"ReloadBehavior",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:152,
+        title:"MultiFrameImage",
+        content:"MultiFrameImage",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:153,
+        title:"CustomDialog",
+        content:"CustomDialog",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:154,
+        title:"ScrollViewerOffsetMediator",
+        content:"ScrollViewerOffsetMediator",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:155,
+        title:"DialogStateChangedEventArgs",
+        content:"DialogStateChangedEventArgs",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:156,
+        title:"PasswordBoxHelper",
+        content:"PasswordBoxHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:157,
+        title:"ClipBorder",
+        content:"ClipBorder",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:158,
+        title:"DataGridRowHelper",
+        content:"DataGridRowHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:159,
+        title:"Tile",
+        content:"Tile",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:160,
+        title:"TextBoxHelper",
+        content:"TextBoxHelper",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:161,
+        title:"CloseTabItemAction",
+        content:"CloseTabItemAction",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:162,
+        title:"PivotItem",
+        content:"PivotItem",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:163,
+        title:"SplitView",
+        content:"SplitView",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:164,
+        title:"ClockDegreeConverter",
+        content:"ClockDegreeConverter",
+        description:'',
+        tags:''
+    });
+
+    a({
+        id:165,
+        title:"Underline",
+        content:"Underline",
+        description:'',
+        tags:''
+    });
+
+    a({
         id:166,
-        title:"TreeHelper",
-        content:"TreeHelper",
+        title:"InputDialog",
+        content:"InputDialog",
         description:'',
         tags:''
     });
 
     a({
         id:167,
-        title:"DialogParticipation",
-        content:"DialogParticipation",
+        title:"OffOnConverter",
+        content:"OffOnConverter",
         description:'',
         tags:''
     });
 
     a({
         id:168,
-        title:"WindowSettings",
-        content:"WindowSettings",
+        title:"MarkupConverter",
+        content:"MarkupConverter",
         description:'',
         tags:''
     });
 
     y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleButtonHelper',
-        title:"ToggleButtonHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/IsNullConverter',
-        title:"IsNullConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/NullToUnsetValueConverter',
-        title:"NullToUnsetValueConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ComboBoxHelper',
-        title:"ComboBoxHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogStateChangedEventArgs',
-        title:"DialogStateChangedEventArgs",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitView',
-        title:"SplitView",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/MarkupConverter',
-        title:"MarkupConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitch',
-        title:"ToggleSwitch",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogManager',
-        title:"DialogManager",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Tile',
-        title:"Tile",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/WindowsSettingBehaviour',
-        title:"WindowsSettingBehaviour",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Actions/SetFlyoutOpenAction',
-        title:"SetFlyoutOpenAction",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogCoordinator',
-        title:"DialogCoordinator",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/RangeSelectionChangedEventArgs',
-        title:"RangeSelectionChangedEventArgs",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ClosingWindowEventHandler',
-        title:"WindowButtonCommands.ClosingWindowEventHandler",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DataGridNumericUpDownColumn',
-        title:"DataGridNumericUpDownColumn",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Badged',
-        title:"Badged",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/LoginDialog',
-        title:"LoginDialog",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Spelling',
-        title:"Spelling",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/LoginDialogSettings',
-        title:"LoginDialogSettings",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/WinApiHelper',
-        title:"WinApiHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroWindow',
-        title:"MetroWindow",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MouseWheelChange',
-        title:"MouseWheelChange",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/RevealImage',
-        title:"RevealImage",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/WindowButtonCommands',
-        title:"WindowButtonCommands",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/FontSizeOffsetConverter',
-        title:"FontSizeOffsetConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/ReloadBehavior',
-        title:"ReloadBehavior",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/FlyoutsControl',
-        title:"FlyoutsControl",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitViewPanePlacement',
-        title:"SplitViewPanePlacement",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePicker',
-        title:"TimePicker",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/ProgressDialogController',
-        title:"ProgressDialogController",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/BaseMetroDialog',
-        title:"BaseMetroDialog",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenuIconItem',
-        title:"HamburgerMenuIconItem",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker',
-        title:"DateTimePicker",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/StringToVisibilityConverter',
-        title:"StringToVisibilityConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/UnderlinedType',
-        title:"UnderlinedType",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/WindowCommandsOverlayBehavior',
-        title:"WindowCommandsOverlayBehavior",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/RangeSlider',
-        title:"RangeSlider",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroContentControl',
-        title:"MetroContentControl",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/MetroTabItemCloseButtonWidthConverter',
-        title:"MetroTabItemCloseButtonWidthConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Actions/CloseTabItemAction',
-        title:"CloseTabItemAction",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/RectangleHeightToRadiusConverter',
-        title:"RectangleHeightToRadiusConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroNavigationWindow',
-        title:"MetroNavigationWindow",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroTabItem',
-        title:"MetroTabItem",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/StylizedBehaviors',
-        title:"StylizedBehaviors",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroThumbContentControlAutomationPeer',
-        title:"MetroThumbContentControlAutomationPeer",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TabControlHelper',
-        title:"TabControlHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ClockDegreeConverter',
-        title:"ClockDegreeConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ResizeModeMinMaxButtonVisibilityConverter',
-        title:"ResizeModeMinMaxButtonVisibilityConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/FlipView',
-        title:"FlipView",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/CustomValidationPopup',
-        title:"CustomValidationPopup",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/MessageDialogStyle',
-        title:"MessageDialogStyle",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/DatePickerTextBoxBehavior',
-        title:"DatePickerTextBoxBehavior",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenuItemCollection',
-        title:"HamburgerMenuItemCollection",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroAnimatedSingleRowTabControl',
-        title:"MetroAnimatedSingleRowTabControl",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Native/WINDOWPLACEMENT',
-        title:"WINDOWPLACEMENT",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/MessageDialog',
-        title:"MessageDialog",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenuItem',
-        title:"HamburgerMenuItem",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenu',
-        title:"HamburgerMenu",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro/Accent',
-        title:"Accent",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/BackgroundToForegroundConverter',
-        title:"BackgroundToForegroundConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ClosingWindowEventHandlerArgs',
-        title:"ClosingWindowEventHandlerArgs",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/RangeParameterChangedEventArgs',
-        title:"RangeParameterChangedEventArgs",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/ProgressDialog',
-        title:"ProgressDialog",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HotKey',
-        title:"HotKey",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/InputDialog',
-        title:"InputDialog",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/GroupBoxHelper',
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/groupboxhelper',
         title:"GroupBoxHelper",
         description:""
     });
 
     y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Underline',
-        title:"Underline",
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/nulltounsetvalueconverter',
+        title:"NullToUnsetValueConverter",
         description:""
     });
 
     y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/TiltBehavior',
-        title:"TiltBehavior",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TabItemClosingEventHandler',
-        title:"BaseMetroTabControl.TabItemClosingEventHandler",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Native/POINT',
-        title:"POINT",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Utils',
-        title:"Utils",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/TreeViewMarginConverter',
-        title:"TreeViewMarginConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/IWindowPlacementSettings',
-        title:"IWindowPlacementSettings",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/LayoutInvalidationCatcher',
-        title:"LayoutInvalidationCatcher",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/IMetroThumb',
-        title:"IMetroThumb",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitViewTemplateSettings',
-        title:"SplitViewTemplateSettings",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DataGridRowHelper',
-        title:"DataGridRowHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ControlsHelper',
-        title:"ControlsHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ExpanderHelper',
-        title:"ExpanderHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/PivotItem',
-        title:"PivotItem",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerFormat',
-        title:"TimePickerFormat",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ToUpperConverter',
-        title:"ToUpperConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro/ThemeManager',
-        title:"ThemeManager",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ContentControlEx',
-        title:"ContentControlEx",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/NumericUpDownChangedRoutedEventHandler',
-        title:"NumericUpDownChangedRoutedEventHandler",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/GridLengthAnimation',
-        title:"GridLengthAnimation",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerBase',
-        title:"TimePickerBase",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/BaseMetroTabControl',
-        title:"BaseMetroTabControl",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ToLowerConverter',
-        title:"ToLowerConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/GlowWindowBehavior',
-        title:"GlowWindowBehavior",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/RangeSelectionChangedEventHandler',
-        title:"RangeSelectionChangedEventHandler",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/WindowCommandsItem',
-        title:"WindowCommandsItem",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ItemClickEventHandler',
-        title:"ItemClickEventHandler",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DataGridHelper',
-        title:"DataGridHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/FlyoutTheme',
-        title:"FlyoutTheme",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ScrollViewerOffsetMediator',
-        title:"ScrollViewerOffsetMediator",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/WindowCommands',
-        title:"WindowCommands",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro/AppTheme',
-        title:"AppTheme",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Native/RECT',
-        title:"RECT",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ProgressRing',
-        title:"ProgressRing",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/FlyoutStatusChangedRoutedEventArgs',
-        title:"MetroWindow.FlyoutStatusChangedRoutedEventArgs",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/GlowDirection',
-        title:"GlowDirection",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TextBoxHelper',
-        title:"TextBoxHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/IDialogCoordinator',
-        title:"IDialogCoordinator",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Position',
-        title:"Position",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SliderHelper',
-        title:"SliderHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroTabControl',
-        title:"MetroTabControl",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/TabControlSelectFirstVisibleTabBehavior',
-        title:"TabControlSelectFirstVisibleTabBehavior",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenuImageItem',
-        title:"HamburgerMenuImageItem",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ThicknessBindingConverter',
-        title:"ThicknessBindingConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePartVisibility',
-        title:"TimePartVisibility",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MultiFrameImage',
-        title:"MultiFrameImage",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ScrollBarHelper',
-        title:"ScrollBarHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ButtonHelper',
-        title:"ButtonHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitViewPaneClosingEventArgs',
-        title:"SplitViewPaneClosingEventArgs",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ThicknessSideType',
-        title:"ThicknessSideType",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitchButton',
-        title:"ToggleSwitchButton",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro/OnThemeChangedEventArgs',
-        title:"OnThemeChangedEventArgs",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Theme',
-        title:"Theme",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MultiFrameImageMode',
-        title:"MultiFrameImageMode",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroProgressBar',
-        title:"MetroProgressBar",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/TreeViewItemExtensions',
-        title:"TreeViewItemExtensions",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroThumbContentControl',
-        title:"MetroThumbContentControl",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Glow',
-        title:"Glow",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/BorderlessWindowBehavior',
-        title:"BorderlessWindowBehavior",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/LoginDialogData',
-        title:"LoginDialogData",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DataGridCellHelper',
-        title:"DataGridCellHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/NumericUpDown',
-        title:"NumericUpDown",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/RangeParameterChangeType',
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/rangeparameterchangetype',
         title:"RangeParameterChangeType",
         description:""
     });
 
     y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/NumericUpDownChangedRoutedEventArgs',
-        title:"NumericUpDownChangedRoutedEventArgs",
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/messagedialogstyle',
+        title:"MessageDialogStyle",
         description:""
     });
 
     y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroAnimatedTabControl',
-        title:"MetroAnimatedTabControl",
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro/apptheme',
+        title:"AppTheme",
         description:""
     });
 
     y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ClipBorder',
-        title:"ClipBorder",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MouseWheelState',
-        title:"MouseWheelState",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroThumb',
-        title:"MetroThumb",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro/MahAppsException',
-        title:"MahAppsException",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TransitioningContentControl',
-        title:"TransitioningContentControl",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/BindableResourceBehavior',
-        title:"BindableResourceBehavior",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/RangeParameterChangedEventHandler',
-        title:"RangeParameterChangedEventHandler",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Extensions',
-        title:"Extensions",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DropDownButton',
-        title:"DropDownButton",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/PasswordBoxBindingBehavior',
-        title:"PasswordBoxBindingBehavior",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Planerator',
-        title:"Planerator",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitButton',
-        title:"SplitButton",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/VisibilityHelper',
-        title:"VisibilityHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TabItemClosingEventArgs',
-        title:"BaseMetroTabControl.TabItemClosingEventArgs",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ButtonsAlignment',
-        title:"ButtonsAlignment",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/OffOnConverter',
-        title:"OffOnConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HotKeyBox',
-        title:"HotKeyBox",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HamburgerMenuGlyphItem',
-        title:"HamburgerMenuGlyphItem",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/PasswordBoxHelper',
-        title:"PasswordBoxHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerBaseSelectionChangedEventArgs_1',
-        title:"TimePickerBaseSelectionChangedEventArgs<T>",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ItemClickEventArgs',
-        title:"ItemClickEventArgs",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/MessageDialogResult',
-        title:"MessageDialogResult",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TransitionType',
-        title:"TransitionType",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/MetroDialogSettings',
-        title:"MetroDialogSettings",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/CustomDialog',
-        title:"CustomDialog",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout',
-        title:"Flyout",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/StylizedBehaviorCollection',
-        title:"StylizedBehaviorCollection",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/FlipViewItem',
-        title:"FlipViewItem",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroThumbContentControlDragStartedEventArgs',
-        title:"MetroThumbContentControlDragStartedEventArgs",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroThumbContentControlDragCompletedEventArgs',
-        title:"MetroThumbContentControlDragCompletedEventArgs",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitViewDisplayMode',
-        title:"SplitViewDisplayMode",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ThicknessToDoubleConverter',
-        title:"ThicknessToDoubleConverter",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Pivot',
-        title:"Pivot",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/MetroDialogColorScheme',
-        title:"MetroDialogColorScheme",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TreeHelper',
-        title:"TreeHelper",
-        description:""
-    });
-
-    y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogParticipation',
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/dialogparticipation',
         title:"DialogParticipation",
         description:""
     });
 
     y({
-        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/WindowSettings',
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro/thememanager',
+        title:"ThemeManager",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/flipviewitem',
+        title:"FlipViewItem",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/hamburgermenuitemcollection',
+        title:"HamburgerMenuItemCollection",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metrothumbcontentcontroldragstartedeventargs',
+        title:"MetroThumbContentControlDragStartedEventArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/timepicker',
+        title:"TimePicker",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metrowindow',
+        title:"MetroWindow",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/flipview',
+        title:"FlipView",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/gridlengthanimation',
+        title:"GridLengthAnimation",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/buttonsalignment',
+        title:"ButtonsAlignment",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/progressdialog',
+        title:"ProgressDialog",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro/onthemechangedeventargs',
+        title:"OnThemeChangedEventArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/visibilityhelper',
+        title:"VisibilityHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/windowcommandsoverlaybehavior',
+        title:"WindowCommandsOverlayBehavior",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/glow',
+        title:"Glow",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/rangeselectionchangedeventargs',
+        title:"RangeSelectionChangedEventArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.behaviours/windowssettingbehaviour',
+        title:"WindowsSettingBehaviour",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/hamburgermenuglyphitem',
+        title:"HamburgerMenuGlyphItem",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/closingwindoweventhandlerargs',
+        title:"ClosingWindowEventHandlerArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/stringtovisibilityconverter',
+        title:"StringToVisibilityConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro/accent',
+        title:"Accent",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/hotkey',
+        title:"HotKey",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/hotkeybox',
+        title:"HotKeyBox",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/numericupdownchangedroutedeventargs',
+        title:"NumericUpDownChangedRoutedEventArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/planerator',
+        title:"Planerator",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/metrotabitemclosebuttonwidthconverter',
+        title:"MetroTabItemCloseButtonWidthConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/imetrothumb',
+        title:"IMetroThumb",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/toggleswitch',
+        title:"ToggleSwitch",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/iwindowplacementsettings',
+        title:"IWindowPlacementSettings",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/rangeparameterchangedeventhandler',
+        title:"RangeParameterChangedEventHandler",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metronavigationwindow',
+        title:"MetroNavigationWindow",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/windowcommandsitem',
+        title:"WindowCommandsItem",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metrotabcontrol',
+        title:"MetroTabControl",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/windowbuttoncommands',
+        title:"WindowButtonCommands",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/logindialogdata',
+        title:"LoginDialogData",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/timepickerbaseselectionchangedeventargs_1',
+        title:"TimePickerBaseSelectionChangedEventArgs<T>",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/flyouttheme',
+        title:"FlyoutTheme",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/timepickerformat',
+        title:"TimePickerFormat",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.behaviours/tabcontrolselectfirstvisibletabbehavior',
+        title:"TabControlSelectFirstVisibleTabBehavior",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/pivot',
+        title:"Pivot",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/contentcontrolex',
+        title:"ContentControlEx",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.behaviours/borderlesswindowbehavior',
+        title:"BorderlessWindowBehavior",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/tabitemclosingeventargs',
+        title:"BaseMetroTabControl.TabItemClosingEventArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/badged',
+        title:"Badged",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.native/point',
+        title:"POINT",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.behaviours/passwordboxbindingbehavior',
+        title:"PasswordBoxBindingBehavior",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/glowdirection',
+        title:"GlowDirection",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/tabcontrolhelper',
+        title:"TabControlHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/datagridhelper',
+        title:"DataGridHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/datagridnumericupdowncolumn',
+        title:"DataGridNumericUpDownColumn",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/rangeparameterchangedeventargs',
+        title:"RangeParameterChangedEventArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/toupperconverter',
+        title:"ToUpperConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/expanderhelper',
+        title:"ExpanderHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/windowcommands',
+        title:"WindowCommands",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/mousewheelchange',
+        title:"MouseWheelChange",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/numericupdown',
+        title:"NumericUpDown",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metrothumbcontentcontroldragcompletedeventargs',
+        title:"MetroThumbContentControlDragCompletedEventArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/revealimage',
+        title:"RevealImage",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/position',
+        title:"Position",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/progressdialogcontroller',
+        title:"ProgressDialogController",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.native/rect',
+        title:"RECT",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/winapihelper',
+        title:"WinApiHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.behaviours/bindableresourcebehavior',
+        title:"BindableResourceBehavior",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/basemetrotabcontrol',
+        title:"BaseMetroTabControl",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/flyoutscontrol',
+        title:"FlyoutsControl",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/scrollbarhelper',
+        title:"ScrollBarHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/flyout',
+        title:"Flyout",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/splitbutton',
+        title:"SplitButton",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metroanimatedtabcontrol',
+        title:"MetroAnimatedTabControl",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/dialogmanager',
+        title:"DialogManager",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/controlshelper',
+        title:"ControlsHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/tabitemclosingeventhandler',
+        title:"BaseMetroTabControl.TabItemClosingEventHandler",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/treeviewitemextensions',
+        title:"TreeViewItemExtensions",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.behaviours/tiltbehavior',
+        title:"TiltBehavior",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/treeviewmarginconverter',
+        title:"TreeViewMarginConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/itemclickeventhandler',
+        title:"ItemClickEventHandler",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/hamburgermenu',
+        title:"HamburgerMenu",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/splitviewpaneclosingeventargs',
+        title:"SplitViewPaneClosingEventArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/metrodialogsettings',
+        title:"MetroDialogSettings",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/spelling',
+        title:"Spelling",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/flyoutstatuschangedroutedeventargs',
+        title:"MetroWindow.FlyoutStatusChangedRoutedEventArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/splitviewdisplaymode',
+        title:"SplitViewDisplayMode",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/buttonhelper',
+        title:"ButtonHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/idialogcoordinator',
+        title:"IDialogCoordinator",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/customvalidationpopup',
+        title:"CustomValidationPopup",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/hamburgermenuimageitem',
+        title:"HamburgerMenuImageItem",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metrothumb',
+        title:"MetroThumb",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/splitviewpaneplacement',
+        title:"SplitViewPanePlacement",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/hamburgermenuiconitem',
+        title:"HamburgerMenuIconItem",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/treehelper',
+        title:"TreeHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/isnullconverter',
+        title:"IsNullConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/thicknesstodoubleconverter',
+        title:"ThicknessToDoubleConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metrothumbcontentcontrolautomationpeer',
+        title:"MetroThumbContentControlAutomationPeer",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/splitviewtemplatesettings',
+        title:"SplitViewTemplateSettings",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/sliderhelper',
+        title:"SliderHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/progressring',
+        title:"ProgressRing",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.behaviours/glowwindowbehavior',
+        title:"GlowWindowBehavior",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/transitiontype',
+        title:"TransitionType",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/tolowerconverter',
+        title:"ToLowerConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/rangeselectionchangedeventhandler',
+        title:"RangeSelectionChangedEventHandler",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/mousewheelstate',
+        title:"MouseWheelState",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/timepickerbase',
+        title:"TimePickerBase",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.native/windowplacement',
+        title:"WINDOWPLACEMENT",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro/mahappsexception',
+        title:"MahAppsException",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/utils',
+        title:"Utils",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metroprogressbar',
+        title:"MetroProgressBar",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/backgroundtoforegroundconverter',
+        title:"BackgroundToForegroundConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/hamburgermenuitem',
+        title:"HamburgerMenuItem",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/rangeslider',
+        title:"RangeSlider",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/closingwindoweventhandler',
+        title:"WindowButtonCommands.ClosingWindowEventHandler",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/windowsettings',
         title:"WindowSettings",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metrothumbcontentcontrol',
+        title:"MetroThumbContentControl",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/extensions',
+        title:"Extensions",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/rectangleheighttoradiusconverter',
+        title:"RectangleHeightToRadiusConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/metrodialogcolorscheme',
+        title:"MetroDialogColorScheme",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/fontsizeoffsetconverter',
+        title:"FontSizeOffsetConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/comboboxhelper',
+        title:"ComboBoxHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/logindialog',
+        title:"LoginDialog",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/logindialogsettings',
+        title:"LoginDialogSettings",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/datagridcellhelper',
+        title:"DataGridCellHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/underlinedtype',
+        title:"UnderlinedType",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/dropdownbutton',
+        title:"DropDownButton",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/theme',
+        title:"Theme",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/datetimepicker',
+        title:"DateTimePicker",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/multiframeimagemode',
+        title:"MultiFrameImageMode",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metrotabitem',
+        title:"MetroTabItem",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/thicknesssidetype',
+        title:"ThicknessSideType",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/toggleswitchbutton',
+        title:"ToggleSwitchButton",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/layoutinvalidationcatcher',
+        title:"LayoutInvalidationCatcher",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.behaviours/datepickertextboxbehavior',
+        title:"DatePickerTextBoxBehavior",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/transitioningcontentcontrol',
+        title:"TransitioningContentControl",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/numericupdownchangedroutedeventhandler',
+        title:"NumericUpDownChangedRoutedEventHandler",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/messagedialog',
+        title:"MessageDialog",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/togglebuttonhelper',
+        title:"ToggleButtonHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/basemetrodialog',
+        title:"BaseMetroDialog",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.behaviours/stylizedbehaviorcollection',
+        title:"StylizedBehaviorCollection",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/thicknessbindingconverter',
+        title:"ThicknessBindingConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/dialogcoordinator',
+        title:"DialogCoordinator",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/messagedialogresult',
+        title:"MessageDialogResult",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metrocontentcontrol',
+        title:"MetroContentControl",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.actions/setflyoutopenaction',
+        title:"SetFlyoutOpenAction",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/resizemodeminmaxbuttonvisibilityconverter',
+        title:"ResizeModeMinMaxButtonVisibilityConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.behaviours/stylizedbehaviors',
+        title:"StylizedBehaviors",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/timepartvisibility',
+        title:"TimePartVisibility",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/metroanimatedsinglerowtabcontrol',
+        title:"MetroAnimatedSingleRowTabControl",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/itemclickeventargs',
+        title:"ItemClickEventArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.behaviours/reloadbehavior',
+        title:"ReloadBehavior",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/multiframeimage',
+        title:"MultiFrameImage",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/customdialog',
+        title:"CustomDialog",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/scrollvieweroffsetmediator',
+        title:"ScrollViewerOffsetMediator",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/dialogstatechangedeventargs',
+        title:"DialogStateChangedEventArgs",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/passwordboxhelper',
+        title:"PasswordBoxHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/clipborder',
+        title:"ClipBorder",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/datagridrowhelper',
+        title:"DataGridRowHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/tile',
+        title:"Tile",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/textboxhelper',
+        title:"TextBoxHelper",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.actions/closetabitemaction',
+        title:"CloseTabItemAction",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/pivotitem',
+        title:"PivotItem",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/splitview',
+        title:"SplitView",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/clockdegreeconverter',
+        title:"ClockDegreeConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls/underline',
+        title:"Underline",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.controls.dialogs/inputdialog',
+        title:"InputDialog",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/offonconverter',
+        title:"OffOnConverter",
+        description:""
+    });
+
+    y({
+        url:'/mahapps.metro.docs.wyam/mahapps.metro.docs.wyam/api/mahapps.metro.converters/markupconverter',
+        title:"MarkupConverter",
         description:""
     });
 
