@@ -106,7 +106,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -118,6 +118,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -142,13 +149,8 @@
 				<ul class="treeview-menu">
 						<li><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs">MahApps<wbr>.Metro<wbr>.Controls<wbr>.Dialogs</a></li>
 </ul></li>			<li><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters">MahApps<wbr>.Metro<wbr>.Converters</a></li>
-
-				<li class="treeview">
-				<a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Models">MahApps<wbr>.Metro<wbr>.Models</a> <a href="#" class="expand"></a>
-				<ul class="treeview-menu">
-						<li><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Models.Win32">MahApps<wbr>.Metro<wbr>.Models<wbr>.Win32</a></li>
-</ul></li>			<li class=" selected"><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Native">MahApps<wbr>.Metro<wbr>.Native</a></li>
-			<li><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Properties">MahApps<wbr>.Metro<wbr>.Properties</a></li>
+			<li><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Models">MahApps<wbr>.Metro<wbr>.Models</a></li>
+			<li class=" selected"><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Native">MahApps<wbr>.Metro<wbr>.Native</a></li>
 </ul></li></ul></li>      
 
                     </ul>

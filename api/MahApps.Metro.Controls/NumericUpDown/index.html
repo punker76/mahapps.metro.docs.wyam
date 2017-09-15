@@ -112,7 +112,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -124,6 +124,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -376,7 +383,7 @@ public class NumericUpDown : Control</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/NumericUpDown/0AA63DB1">ValueChanged</a></td>
-								<td>Routed<wbr>Property<wbr>Changed<wbr>Event<wbr>Handler<wbr>&lt;double?&gt;<wbr></td>
+								<td>Routed<wbr>Property<wbr>Changed<wbr>Event<wbr>Handler<wbr>&lt;&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
@@ -787,7 +794,7 @@ public class NumericUpDown : Control</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/NumericUpDown/17FA5C2B">Value</a></td>
-								<td>double?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>

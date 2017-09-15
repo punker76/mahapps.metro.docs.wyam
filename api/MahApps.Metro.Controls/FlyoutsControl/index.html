@@ -111,7 +111,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -123,6 +123,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -374,7 +381,7 @@ public class FlyoutsControl : ItemsControl</code></pre>
 						</thead>
 							<tbody><tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/FlyoutsControl/3CE589D9">Override<wbr>External<wbr>Close<wbr>Button</a></td>
-								<td>MouseButton?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
     Gets/sets whether <code class="cs"><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout/543C6FED">ExternalCloseButton</a></code> is ignored and all flyouts behave as if it was set to the value of this property.

@@ -108,7 +108,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -120,6 +120,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -224,7 +231,7 @@ class Type type-node
 						</thead>
 							<tbody><tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogManager/4FA8BD30">DialogClosed</a></td>
-								<td>EventHandler<wbr>&lt;<wbr>Dialog<wbr>State<wbr>Changed<wbr>Event<wbr>Args&gt;<wbr></td>
+								<td>EventHandler<wbr>&lt;TEventArgs&gt;<wbr></td>
 								<td>
 									<div></div>
 											<div><small><em>static</em></small></div>
@@ -232,7 +239,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogManager/F0C22C99">DialogOpened</a></td>
-								<td>EventHandler<wbr>&lt;<wbr>Dialog<wbr>State<wbr>Changed<wbr>Event<wbr>Args&gt;<wbr></td>
+								<td>EventHandler<wbr>&lt;TEventArgs&gt;<wbr></td>
 								<td>
 									<div></div>
 											<div><small><em>static</em></small></div>
@@ -258,7 +265,7 @@ class Type type-node
 						</thead>
 							<tbody><tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogManager/5160A8A3">Get<wbr>Current<wbr>Dialog<wbr>Async<wbr>&lt;TDialog&gt;<wbr><wbr>(MetroWindow)<wbr></a></td>
-								<td>Task<wbr>&lt;TDialog&gt;<wbr></td>
+								<td>Task<wbr>&lt;TResult&gt;<wbr></td>
 								<td>
 									<div>
     Gets the current shown dialog in async way.
@@ -286,7 +293,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogManager/573D3CAB">ShowInputAsync<wbr>(MetroWindow, <wbr>string, <wbr>string, <wbr>MetroDialogSettings)<wbr></a></td>
-								<td>Task<wbr>&lt;string&gt;<wbr></td>
+								<td>Task<wbr>&lt;TResult&gt;<wbr></td>
 								<td>
 									<div>
     Creates a InputDialog inside of the current window.
@@ -296,7 +303,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogManager/02010D4E">ShowLoginAsync<wbr>(MetroWindow, <wbr>string, <wbr>string, <wbr>LoginDialogSettings)<wbr></a></td>
-								<td>Task<wbr>&lt;<wbr>Login<wbr>Dialog<wbr>Data&gt;<wbr></td>
+								<td>Task<wbr>&lt;TResult&gt;<wbr></td>
 								<td>
 									<div>
     Creates a LoginDialog inside of the current window.
@@ -306,7 +313,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogManager/68C773A8">ShowMessageAsync<wbr>(MetroWindow, <wbr>string, <wbr>string, <wbr>MessageDialogStyle, <wbr>MetroDialogSettings)<wbr></a></td>
-								<td>Task<wbr>&lt;<wbr>Message<wbr>Dialog<wbr>Result&gt;<wbr></td>
+								<td>Task<wbr>&lt;TResult&gt;<wbr></td>
 								<td>
 									<div>
     Creates a MessageDialog inside of the current window.
@@ -328,7 +335,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogManager/4AEB8DBE">ShowMetroDialogAsync<wbr>&lt;TDialog&gt;<wbr><wbr>(MetroWindow, <wbr>MetroDialogSettings)<wbr></a></td>
-								<td>Task<wbr>&lt;TDialog&gt;<wbr></td>
+								<td>Task<wbr>&lt;TResult&gt;<wbr></td>
 								<td>
 									<div>
     Adds a Metro Dialog instance of the given type to the specified window and makes it visible asynchronously.
@@ -378,7 +385,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogManager/9BE6F844">ShowProgressAsync<wbr>(MetroWindow, <wbr>string, <wbr>string, <wbr>bool, <wbr>MetroDialogSettings)<wbr></a></td>
-								<td>Task<wbr>&lt;<wbr>Progress<wbr>Dialog<wbr>Controller&gt;<wbr></td>
+								<td>Task<wbr>&lt;TResult&gt;<wbr></td>
 								<td>
 									<div>
     Creates a ProgressDialog inside of the current window.

@@ -108,7 +108,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -120,6 +120,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -237,7 +244,7 @@
 				</thead>
 					<tbody><tr>
 						<td>e</td>
-						<td>Time<wbr>Picker<wbr>Base<wbr>Selection<wbr>Changed<wbr>Event<wbr>Args<wbr>&lt;TimeSpan?&gt;<wbr></td>
+						<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerBaseSelectionChangedEventArgs_1">Time<wbr>Picker<wbr>Base<wbr>Selection<wbr>Changed<wbr>Event<wbr>Args<wbr>&lt;T&gt;<wbr></a></td>
 						<td></td>
 					</tr>
 			</tbody></table>

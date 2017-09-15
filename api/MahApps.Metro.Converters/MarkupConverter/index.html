@@ -108,7 +108,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -120,6 +120,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -194,10 +201,10 @@
 								<dt>Derived Types</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ToLowerConverter">ToLowerConverter</a></li>								
 											<li><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ToUpperConverter">ToUpperConverter</a></li>								
-											<li><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/RectangleHeightToRadiusConverter">Rectangle<wbr>Height<wbr>To<wbr>Radius<wbr>Converter</a></li>								
 											<li><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/NullToUnsetValueConverter">Null<wbr>To<wbr>Unset<wbr>Value<wbr>Converter</a></li>								
+											<li><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ToLowerConverter">ToLowerConverter</a></li>								
+											<li><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/RectangleHeightToRadiusConverter">Rectangle<wbr>Height<wbr>To<wbr>Radius<wbr>Converter</a></li>								
 									</ul>
 								</dd>			
 							
@@ -210,14 +217,14 @@
 	Interface0["IValueConverter"]-.-&gt;Type
 	Type["MarkupConverter"]
 class Type type-node
-	Type--&gt;Derived0["ToLowerConverter"]
-	click Derived0 "/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ToLowerConverter"
-	Type--&gt;Derived1["ToUpperConverter"]
-	click Derived1 "/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ToUpperConverter"
-	Type--&gt;Derived2["RectangleHeightToRadiusConverter"]
-	click Derived2 "/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/RectangleHeightToRadiusConverter"
-	Type--&gt;Derived3["NullToUnsetValueConverter"]
-	click Derived3 "/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/NullToUnsetValueConverter"
+	Type--&gt;Derived0["ToUpperConverter"]
+	click Derived0 "/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ToUpperConverter"
+	Type--&gt;Derived1["NullToUnsetValueConverter"]
+	click Derived1 "/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/NullToUnsetValueConverter"
+	Type--&gt;Derived2["ToLowerConverter"]
+	click Derived2 "/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/ToLowerConverter"
+	Type--&gt;Derived3["RectangleHeightToRadiusConverter"]
+	click Derived3 "/mahapps.metro.docs.wyam/api/MahApps.Metro.Converters/RectangleHeightToRadiusConverter"
 
 						</div>
 					</div>

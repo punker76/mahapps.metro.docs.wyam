@@ -110,7 +110,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -122,6 +122,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -215,7 +222,7 @@ class Type type-node
 						</thead>
 							<tbody><tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro/ThemeManager/1D0E600E">IsThemeChanged</a></td>
-								<td>EventHandler<wbr>&lt;<wbr>On<wbr>Theme<wbr>Changed<wbr>Event<wbr>Args&gt;<wbr></td>
+								<td>EventHandler<wbr>&lt;TEventArgs&gt;<wbr></td>
 								<td>
 									<div>
     This event fires if accent color and theme was changed
@@ -243,7 +250,7 @@ class Type type-node
 						</thead>
 							<tbody><tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro/ThemeManager/DD01D078">Accents</a></td>
-								<td>IEnumerable<wbr>&lt;Accent&gt;<wbr></td>
+								<td>IEnumerable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
     Gets a list of all of default accents.
@@ -253,7 +260,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro/ThemeManager/3C71B7C9">AppThemes</a></td>
-								<td>IEnumerable<wbr>&lt;AppTheme&gt;<wbr></td>
+								<td>IEnumerable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
     Gets a list of all default themes.
@@ -349,7 +356,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro/ThemeManager/E5A2A679">DetectAppStyle<wbr>()<wbr></a></td>
-								<td>Tuple<wbr>&lt;AppTheme, <wbr>Accent&gt;<wbr></td>
+								<td>Tuple<wbr>&lt;T1, <wbr>T2&gt;<wbr></td>
 								<td>
 									<div>
     Scans the window resources and returns it's accent and theme.
@@ -359,7 +366,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro/ThemeManager/13A575CD">DetectAppStyle<wbr>(Application)<wbr></a></td>
-								<td>Tuple<wbr>&lt;AppTheme, <wbr>Accent&gt;<wbr></td>
+								<td>Tuple<wbr>&lt;T1, <wbr>T2&gt;<wbr></td>
 								<td>
 									<div>
     Scans the application resources and returns it's accent and theme.
@@ -369,7 +376,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro/ThemeManager/16E4BA55">DetectAppStyle<wbr>(Window)<wbr></a></td>
-								<td>Tuple<wbr>&lt;AppTheme, <wbr>Accent&gt;<wbr></td>
+								<td>Tuple<wbr>&lt;T1, <wbr>T2&gt;<wbr></td>
 								<td>
 									<div>
     Scans the window resources and returns it's accent and theme.

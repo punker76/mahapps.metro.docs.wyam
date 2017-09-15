@@ -112,7 +112,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -124,6 +124,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -349,7 +356,7 @@ public class DateTimePicker : TimePickerBase</code></pre>
 						</thead>
 							<tbody><tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker/060FAF23">SelectedDateChanged</a></td>
-								<td>EventHandler<wbr>&lt;<wbr>Time<wbr>Picker<wbr>Base<wbr>Selection<wbr>Changed<wbr>Event<wbr>Args<wbr>&lt;DateTime?&gt;<wbr>&gt;<wbr></td>
+								<td>EventHandler<wbr>&lt;TEventArgs&gt;<wbr></td>
 								<td>
 									<div>
         Occurs when the <code class="cs"><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker/5F6453F8">SelectedDate</a></code> property is changed.
@@ -358,7 +365,7 @@ public class DateTimePicker : TimePickerBase</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerBase/580F449D">SelectedTimeChanged</a></td>
-								<td>EventHandler<wbr>&lt;<wbr>Time<wbr>Picker<wbr>Base<wbr>Selection<wbr>Changed<wbr>Event<wbr>Args<wbr>&lt;TimeSpan?&gt;<wbr>&gt;<wbr></td>
+								<td>EventHandler<wbr>&lt;TEventArgs&gt;<wbr></td>
 								<td>
 									<div>
         Occurs when the <code class="cs"><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerBase/4CFE91CD">SelectedTime</a></code> property is changed.
@@ -640,7 +647,7 @@ public class DateTimePicker : TimePickerBase</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker/26B18127">DisplayDate</a></td>
-								<td>DateTime?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
         Gets or sets the date to display
@@ -649,7 +656,7 @@ public class DateTimePicker : TimePickerBase</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker/6B631063">DisplayDateEnd</a></td>
-								<td>DateTime?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
         Gets or sets the last date to be displayed.
@@ -658,7 +665,7 @@ public class DateTimePicker : TimePickerBase</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker/024AC58F">DisplayDateStart</a></td>
-								<td>DateTime?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
         Gets or sets the first date to be displayed.
@@ -768,7 +775,7 @@ public class DateTimePicker : TimePickerBase</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker/5F6453F8">SelectedDate</a></td>
-								<td>DateTime?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
         Gets or sets the currently selected date.
@@ -786,7 +793,7 @@ public class DateTimePicker : TimePickerBase</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerBase/4CFE91CD">SelectedTime</a></td>
-								<td>TimeSpan?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
         Gets or sets the currently selected time.
@@ -806,7 +813,7 @@ public class DateTimePicker : TimePickerBase</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerBase/C394C164">SourceHours</a></td>
-								<td>IEnumerable<wbr>&lt;int&gt;<wbr></td>
+								<td>IEnumerable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
         Gets or sets a collection used to generate the content for selecting the hours.
@@ -816,7 +823,7 @@ public class DateTimePicker : TimePickerBase</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerBase/9F5E238C">SourceMinutes</a></td>
-								<td>IEnumerable<wbr>&lt;int&gt;<wbr></td>
+								<td>IEnumerable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
         Gets or sets a collection used to generate the content for selecting the minutes.
@@ -826,7 +833,7 @@ public class DateTimePicker : TimePickerBase</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerBase/DA1D9E03">SourceSeconds</a></td>
-								<td>IEnumerable<wbr>&lt;int&gt;<wbr></td>
+								<td>IEnumerable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
         Gets or sets a collection used to generate the content for selecting the seconds.
@@ -882,7 +889,7 @@ public class DateTimePicker : TimePickerBase</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerBase/7B67FB0F">Get<wbr>Selected<wbr>Time<wbr>From<wbr>G<wbr>U<wbr>I<wbr>()<wbr></a></td>
-								<td>TimeSpan?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div></div>
 											<div><small><em>Inherited from <a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePickerBase">TimePickerBase</a></em></small></div>

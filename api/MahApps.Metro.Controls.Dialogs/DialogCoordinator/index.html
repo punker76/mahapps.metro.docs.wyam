@@ -108,7 +108,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -120,6 +120,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -260,7 +267,7 @@ class Type type-node
 						</thead>
 							<tbody><tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogCoordinator/6BCD652E">Get<wbr>Current<wbr>Dialog<wbr>Async<wbr>&lt;TDialog&gt;<wbr><wbr>(object)<wbr></a></td>
-								<td>Task<wbr>&lt;TDialog&gt;<wbr></td>
+								<td>Task<wbr>&lt;TResult&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
@@ -274,21 +281,21 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogCoordinator/BB2AF0C3">ShowInputAsync<wbr>(object, <wbr>string, <wbr>string, <wbr>MetroDialogSettings)<wbr></a></td>
-								<td>Task<wbr>&lt;string&gt;<wbr></td>
+								<td>Task<wbr>&lt;TResult&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogCoordinator/91CEF199">ShowLoginAsync<wbr>(object, <wbr>string, <wbr>string, <wbr>LoginDialogSettings)<wbr></a></td>
-								<td>Task<wbr>&lt;<wbr>Login<wbr>Dialog<wbr>Data&gt;<wbr></td>
+								<td>Task<wbr>&lt;TResult&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogCoordinator/14E56749">ShowMessageAsync<wbr>(object, <wbr>string, <wbr>string, <wbr>MessageDialogStyle, <wbr>MetroDialogSettings)<wbr></a></td>
-								<td>Task<wbr>&lt;<wbr>Message<wbr>Dialog<wbr>Result&gt;<wbr></td>
+								<td>Task<wbr>&lt;TResult&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
@@ -323,7 +330,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/DialogCoordinator/D3A55598">ShowProgressAsync<wbr>(object, <wbr>string, <wbr>string, <wbr>bool, <wbr>MetroDialogSettings)<wbr></a></td>
-								<td>Task<wbr>&lt;<wbr>Progress<wbr>Dialog<wbr>Controller&gt;<wbr></td>
+								<td>Task<wbr>&lt;TResult&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>

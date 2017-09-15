@@ -113,7 +113,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -125,6 +125,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -427,7 +434,7 @@ public class SplitView : Control</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitView/EE308854">PaneClosing</a></td>
-								<td>EventHandler<wbr>&lt;<wbr>Split<wbr>View<wbr>Pane<wbr>Closing<wbr>Event<wbr>Args&gt;<wbr></td>
+								<td>EventHandler<wbr>&lt;TEventArgs&gt;<wbr></td>
 								<td>
 									<div>
         Occurs when the <code class="cs"><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/SplitView">SplitView</a></code> pane is closing.

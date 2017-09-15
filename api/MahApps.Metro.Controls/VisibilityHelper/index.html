@@ -108,7 +108,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -120,6 +120,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -357,7 +364,7 @@ class Type type-node
 						</thead>
 							<tbody><tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/VisibilityHelper/E84A07C7">GetIsCollapsed<wbr>(DependencyObject)<wbr></a></td>
-								<td>bool?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div></div>
 											<div><small><em>static</em></small></div>
@@ -365,7 +372,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/VisibilityHelper/6A3AC714">GetIsHidden<wbr>(DependencyObject)<wbr></a></td>
-								<td>bool?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div></div>
 											<div><small><em>static</em></small></div>
@@ -373,7 +380,7 @@ class Type type-node
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/VisibilityHelper/39228C76">GetIsVisible<wbr>(DependencyObject)<wbr></a></td>
-								<td>bool?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div></div>
 											<div><small><em>static</em></small></div>

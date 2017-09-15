@@ -109,7 +109,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -121,6 +121,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -273,7 +280,7 @@
 								<dt>Interfaces</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li>IEquatable<wbr>&lt;HotKey&gt;<wbr></li>								
+											<li>IEquatable<wbr>&lt;T&gt;<wbr></li>								
 									</ul>
 								</dd>
 							
@@ -291,7 +298,7 @@
 						<div class="mermaid">
 							graph TD
 	Base0["object"]--&gt;Type
-	Interface0["IEquatable&lt;HotKey&gt;"]-.-&gt;Type
+	Interface0["IEquatable&lt;T&gt;"]-.-&gt;Type
 	Type["HotKey"]
 class Type type-node
 

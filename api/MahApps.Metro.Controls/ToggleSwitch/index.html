@@ -113,7 +113,7 @@
             } else {					
                 for(var i = 0; i < results.length; ++i){
                     var res = results[i];
-                    listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
                 }				
             }
             listHtml += "</ul>";				
@@ -125,6 +125,13 @@
                 runSearch($("#search").val());
             });
         });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
     </script>
 	
     <hr>
@@ -370,21 +377,21 @@ public class ToggleSwitch : HeaderedContentControl</code></pre>
 						</thead>
 							<tbody><tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitch/50566410">Checked</a></td>
-								<td>EventHandler<wbr>&lt;<wbr>Routed<wbr>Event<wbr>Args&gt;<wbr></td>
+								<td>EventHandler<wbr>&lt;TEventArgs&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitch/4BE281C4">Click</a></td>
-								<td>EventHandler<wbr>&lt;<wbr>Routed<wbr>Event<wbr>Args&gt;<wbr></td>
+								<td>EventHandler<wbr>&lt;TEventArgs&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitch/B419D708">Indeterminate</a></td>
-								<td>EventHandler<wbr>&lt;<wbr>Routed<wbr>Event<wbr>Args&gt;<wbr></td>
+								<td>EventHandler<wbr>&lt;TEventArgs&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
@@ -400,7 +407,7 @@ public class ToggleSwitch : HeaderedContentControl</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitch/A8C09AAA">Unchecked</a></td>
-								<td>EventHandler<wbr>&lt;<wbr>Routed<wbr>Event<wbr>Args&gt;<wbr></td>
+								<td>EventHandler<wbr>&lt;TEventArgs&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
@@ -637,7 +644,7 @@ public class ToggleSwitch : HeaderedContentControl</code></pre>
 							</tr>
 							<tr>
 								<td><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitch/0EE5A4FE">IsChecked</a></td>
-								<td>bool?</td>
+								<td>Nullable<wbr>&lt;T&gt;<wbr></td>
 								<td>
 									<div>
     Gets/sets whether the control is Checked (On) or not (Off).
