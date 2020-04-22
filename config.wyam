@@ -7,6 +7,7 @@ System.Globalization.CultureInfo.DefaultThreadCurrentCulture = System.Globalizat
 Settings[Keys.Host] = "punker76.github.io";
 Settings[Keys.LinkRoot] = "/mahapps.metro.docs.wyam";
 Settings[Keys.LinkLowercase] = false;
+Settings[Keys.LinksUseHttps] = true;
 
 Settings[DocsKeys.Title] = "MahApps.Metro";
 Settings[DocsKeys.BaseEditUrl] = "https://github.com/punker76/mahapps.metro.docs.wyam/tree/master/input/";
