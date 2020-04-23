@@ -43,7 +43,9 @@ Task("Build")
       {
         Recipe = "Docs",
         Theme = "Samson",
-        UpdatePackages = true
+        UpdatePackages = false,
+        UseGlobalSources = false,
+        UseLocalPackages = true
       });
     });
     
@@ -55,8 +57,11 @@ Task("Preview")
         Recipe = "Docs",
         Theme = "Samson",
         UpdatePackages = true,
+        UseGlobalSources = false,
+        UseLocalPackages = true,
         Preview = true,
-        Watch = true
+        Watch = true,
+        PreviewVirtualDirectory = "mahapps.metro.docs.wyam"
       });
     });
 

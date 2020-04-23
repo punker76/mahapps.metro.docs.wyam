@@ -2,4 +2,4 @@ output/
 tools/
 src/
 Wyam/
-packages.xml
+packages

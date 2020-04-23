@@ -5,11 +5,12 @@
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = System.Globalization.CultureInfo.CreateSpecificCulture("en-US");
 
 Settings[Keys.Host] = "punker76.github.io";
-Settings[Keys.LinkRoot] = "/mahapps.metro.docs.wyam";
+Settings[Keys.LinkRoot] = "mahapps.metro.docs.wyam";
 Settings[Keys.LinkLowercase] = false;
 Settings[Keys.LinksUseHttps] = true;
 
 Settings[DocsKeys.Title] = "MahApps.Metro";
+Settings[DocsKeys.Logo] = "./assets/img/mahapps.metro.logo.png";
 Settings[DocsKeys.BaseEditUrl] = "https://github.com/punker76/mahapps.metro.docs.wyam/tree/master/input/";
 Settings[DocsKeys.SourceFiles] = "../src/src/**/{!bin,!obj,!packages,!*.Tests,!*.Build,!*.Samples,!Microsoft.Windows.Shell,}/**/*.cs";
 
