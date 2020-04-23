@@ -7,7 +7,6 @@
         <link rel="shortcut icon" href="/mahapps.metro.docs.wyam/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/mahapps.metro.docs.wyam/assets/img/favicon.ico" type="image/x-icon">
         <title>MahApps.Metro - Release 1.3.0</title>
-        <link href="/mahapps.metro.docs.wyam/assets/css/mermaid.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/highlight.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
@@ -22,6 +21,7 @@
         <script src="/mahapps.metro.docs.wyam/assets/js/jquery.slimscroll.min.js"></script>
         <script src="/mahapps.metro.docs.wyam/assets/js/jquery.sticky-kit.min.js"></script>
         <script src="/mahapps.metro.docs.wyam/assets/js/mermaid.min.js"></script>
+        <script src="/mahapps.metro.docs.wyam/assets/js/svg-pan-zoom.min.js"></script>
         <!--[if lt IE 9]>
         <script src="/mahapps.metro.docs.wyam/assets/js/html5shiv.min.js"></script>
         <script src="/mahapps.metro.docs.wyam/assets/js/respond.min.js"></script>
@@ -36,8 +36,12 @@
             <header class="main-header">   
                      
                 <a href="/mahapps.metro.docs.wyam/" class="logo">
-                            <span>MahApps.Metro</span>
-                </a>   
+
+                                <!-- mini logo for sidebar mini 50x50 pixels -->
+                                <span class="logo-mini"><img src="/mahapps.metro.docs.wyam/assets/img/mahapps.metro.logo.png"></span>
+                                <!-- logo for regular state and mobile devices -->
+                                <span class="logo-lg"><img src="/mahapps.metro.docs.wyam/assets/img/mahapps.metro.logo.png"></span>
+                                            </a>   
                          
                 <nav class="navbar navbar-static-top" role="navigation">
                     <!-- Sidebar toggle button-->
@@ -59,7 +63,6 @@
                                     <li><a href="/mahapps.metro.docs.wyam/about">About This Project</a></li>
         <li><a href="/mahapps.metro.docs.wyam/docs">Docs</a></li>
         <li class="active"><a href="/mahapps.metro.docs.wyam/blog">Blog</a></li>
-        <li><a href="/mahapps.metro.docs.wyam/api">API</a></li>
  
                         </ul>       
                     </div>
@@ -87,9 +90,9 @@
                     <ul class="sidebar-menu">
                         
 
-    <li class="header"><i class="fa fa-bookmark"></i> Categories</li>    
-        <li><a href="/mahapps.metro.docs.wyam/blog/general">general</a></li>
-        <li><a href="/mahapps.metro.docs.wyam/blog/Release">Release</a></li>
+        <li class="header"><i class="fa fa-bookmark"></i> Categories</li>    
+            <li><a href="/mahapps.metro.docs.wyam/blog/general">general</a></li>
+            <li><a href="/mahapps.metro.docs.wyam/blog/Release">Release</a></li>
     
     <li class="header"><i class="fa fa-calendar"></i> Archive</li>    
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2017/04">April, 2017</a></li>
@@ -110,9 +113,9 @@
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2013/11">November, 2013</a></li>
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2013/03">March, 2013</a></li>
     
-    <li class="header"><i class="fa fa-user"></i> Authors</li>    
-        <li><a href="/mahapps.metro.docs.wyam/blog/author/flagbug">flagbug</a></li>
-        <li><a href="/mahapps.metro.docs.wyam/blog/author/punker76">punker76</a></li>
+        <li class="header"><i class="fa fa-user"></i> Authors</li>    
+            <li><a href="/mahapps.metro.docs.wyam/blog/author/flagbug">flagbug</a></li>
+            <li><a href="/mahapps.metro.docs.wyam/blog/author/punker76">punker76</a></li>
 
                     </ul>
                             
@@ -125,43 +128,45 @@
 
 
 
-	<section class="content-header">
-		<h1>Release 1.3.0</h1>
-	</section>
+		<section class="content-header">
+			<h1>Release 1.3.0</h1>
+		</section>
 	<section class="content">
 		
 
 
-<dl class="dl-horizontal">
-    <dt><i class="fa fa-calendar"></i> Published</dt>
+
+<dl class="dl-horizontal" style="margin-bottom: 12px;">
+    <dt style="text-align: left;"><i class="fa fa-calendar"></i> Published</dt>
     <dd>Friday, September 23, 2016</dd>
-        <dt><i class="fa fa-bookmark"></i> Category</dt>
+        <dt style="text-align: left;"><i class="fa fa-bookmark"></i> Category</dt>
         <dd><a href="/mahapps.metro.docs.wyam/blog/Release">Release</a></dd>
-            <dt><i class="fa fa-user"></i> Author</dt>
+            <dt style="text-align: left;"><i class="fa fa-user"></i> Author</dt>
         <dd><a href="/mahapps.metro.docs.wyam/blog/author/punker76">punker76</a></dd>
 </dl>
+
 
 <h1 id="features-changes-and-fixes">Features / Changes (and Fixes)</h1>
 <ul>
 <li>Switched from Ms-PL to MIT license #2646</li>
-<li>New <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/DateTimePicker">DateTimePicker</a></code> and <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TimePicker">TimePicker</a></code> controls #2299 #2510 (@xxMUROxx)</li>
-<li>New Hotkey control <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HotKeyBox">HotKeyBox</a></code> #2322 (@thoemmi)</li>
-<li>New 'Remember' CheckBox in <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls.Dialogs/LoginDialog">LoginDialog</a></code> #2308 #2305 (@manekovskiy)</li>
+<li>New <code>DateTimePicker</code> and <code>TimePicker</code> controls #2299 #2510 (@xxMUROxx)</li>
+<li>New Hotkey control <code>HotKeyBox</code> #2322 (@thoemmi)</li>
+<li>New 'Remember' CheckBox in <code>LoginDialog</code> #2308 #2305 (@manekovskiy)</li>
 <li>New <code>IconPacks</code> for MahApps: <code>PackIconMaterial</code>, <code>PackIconModern</code>, <code>PackIconFontAwesome</code> and <code>PackIconEntypo</code> #2328 availabe at <a href="https://github.com/MahApps/MahApps.Metro.IconPacks">MahApps.Metro.IconPacks</a><br>
 <code>&lt;iconPacks:PackIconMaterial Kind="EmoticonCool" Height="32" Width="32" /&gt;</code><br>
 <code>&lt;iconPacks:PackIconModern Kind="Cupcake" Height="24" Width="24" /&gt;</code><br>
 <code>&lt;iconPacks:PackIconFontAwesome Kind="FontAwesome" Height="16" Width="16" /&gt;</code><br>
 <code>&lt;iconPacks:PackIconEntypo Kind="ThumbsUp" /&gt;</code></li>
-<li>New <code>Auto Close</code> feature for <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout">Flyout</a></code> #2228 #1710 (@Sikta)
+<li>New <code>Auto Close</code> feature for <code>Flyout</code> #2228 #1710 (@Sikta)
 <ul>
 <li>Enable this by set <code>IsAutoCloseEnabled</code> to true</li>
 <li>Time changable by <code>AutoCloseInterval</code> (default 5000 ms)</li>
 </ul>
 </li>
-<li>Fix <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/PasswordBoxBindingBehavior">PasswordBoxBindingBehavior</a></code> and <code>IsWaitingForData</code> #2355
+<li>Fix <code>PasswordBoxBindingBehavior</code> and <code>IsWaitingForData</code> #2355
 <ul>
-<li>Fixed: Behaviors in <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/StylizedBehaviors">StylizedBehaviors</a></code> should be detached on unload</li>
-<li>Fixed: <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Behaviours/PasswordBoxBindingBehavior">PasswordBoxBindingBehavior</a></code>, it doesn't work e.g. in TabControl TabItems</li>
+<li>Fixed: Behaviors in <code>StylizedBehaviors</code> should be detached on unload</li>
+<li>Fixed: <code>PasswordBoxBindingBehavior</code>, it doesn't work e.g. in TabControl TabItems</li>
 <li><code>IsWaitingForData</code> for <code>MetroButtonTextBox</code>, <code>MetroPasswordBox</code>, <code>MetroButtonPasswordBox</code>, <code>MetroButtonRevealedPasswordBox</code></li>
 <li>PackIconMaterial <code>Eye</code> and ClearTextButton feature for <code>MetroButtonRevealedPasswordBox</code></li>
 </ul>
@@ -170,14 +175,14 @@
 <li><code>ControlsHelper.ButtonWidth</code> for <code>ComboBox</code> and other stuff #2365
 <ul>
 <li>set <code>ChromelessButtonStyle</code> Padding to 0</li>
-<li>new dependency property <code>ButtonContentTemplate</code> in <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/TextBoxHelper">TextBoxHelper</a></code></li>
+<li>new dependency property <code>ButtonContentTemplate</code> in <code>TextBoxHelper</code></li>
 <li>fix width of ClearText button if height change, e.g. for floating watermark</li>
 <li>fix background state colors (<code>IsPressed</code>, <code>IsMouseOver</code>)</li>
 <li>new own sytle <code>MetroComboBoxDropDownToggleButtonStyle</code> for <code>ComboBox</code> toggle button</li>
 </ul>
 </li>
-<li>Added <code>EllipseDiameterScale</code> to <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ProgressRing">ProgressRing</a></code> #2204 #2382 (@petvetbr)</li>
-<li><code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/WindowButtonCommands">WindowButtonCommands</a></code> enhancements #2378
+<li>Added <code>EllipseDiameterScale</code> to <code>ProgressRing</code> #2204 #2382 (@petvetbr)</li>
+<li><code>WindowButtonCommands</code> enhancements #2378
 <ul>
 <li>use ContentPresenter to show the WindowButtonCommands, so it's now possible easier to change the min/max/close button styles</li>
 <li>enable changing min/max/restore/close button tooltip</li>
@@ -186,17 +191,17 @@
 <img src="https://cloud.githubusercontent.com/assets/658431/15323816/074fd6c6-1c44-11e6-8894-39a0d61b9a08.png" class="img-fluid" alt="2016-05-17_15h27_40"></li>
 </ul>
 </li>
-<li>Minor Automation API support for <code>Flyouts</code> and <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/NumericUpDown">NumericUpDown</a></code> #2381 #2166 (@petvetbr)</li>
+<li>Minor Automation API support for <code>Flyouts</code> and <code>NumericUpDown</code> #2381 #2166 (@petvetbr)</li>
 <li>Dialog font sizes setting implementation #2380 #2383 (@petvetbr, @punker76)
 <ul>
 <li>changable via <code>DialogTitleFontSize</code> and <code>DialogMessageFontSize</code></li>
 </ul>
 </li>
 <li>New attached dependency property <code>TextButton</code> in TextBoxHelper which handles the visibility of the button in <code>MetroButtonPasswordBox</code> and <code>MetroButtonTextBox</code>styles #2387</li>
-<li>Win10 <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitch">ToggleSwitch</a></code> and <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitchButton">ToggleSwitchButton</a></code> #2410
+<li>Win10 <code>ToggleSwitch</code> and <code>ToggleSwitchButton</code> #2410
 <ul>
-<li><code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitch">ToggleSwitch</a></code> is now inherited from <code>HeaderedContentControl</code></li>
-<li>new dependency property <code>HeaderFontFamily</code> for <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ToggleSwitch">ToggleSwitch</a></code></li>
+<li><code>ToggleSwitch</code> is now inherited from <code>HeaderedContentControl</code></li>
+<li>new dependency property <code>HeaderFontFamily</code> for <code>ToggleSwitch</code></li>
 <li>new Win10 and Metro styles
 <ul>
 <li><code>MahApps.Metro.Styles.ToggleSwitchButton.Win10</code>, <code>MahApps.Metro.Styles.ToggleSwitch.Win10</code></li>
@@ -227,35 +232,35 @@
 <li>new brush and color keys for all accent colors: <code>AccentBaseColor</code> and <code>AccentBaseColorBrush</code> (full color)</li>
 </ul>
 </li>
-<li><code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout">Flyout</a></code> changes
+<li><code>Flyout</code> changes
 <ul>
 <li>SetFlyoutOpenAction is now obsolete</li>
 <li>new/update template names BackButton, BackHeaderText</li>
 <li>new <code>CloseCommandParameter</code> dependency property</li>
 </ul>
 </li>
-<li><code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/FlipView">FlipView</a></code> changes
+<li><code>FlipView</code> changes
 <ul>
 <li><code>MouseOverGlowEnabled</code> is now obsolete, use <code>MouseHoverBorderEnabled</code> instead</li>
 <li>new <code>MouseHoverBorderBrush</code> and <code>MouseHoverBorderThickness</code> dependency property</li>
 </ul>
 </li>
-<li>New dependency property <code>CircularNavigation</code> for the <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/FlipView">FlipView</a></code> #2389</li>
-<li><code>BindsTwoWayByDefault</code> removed from <code>IsActiveProperty</code> of <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ProgressRing">ProgressRing</a></code> #2438 (@xxMUROxx)</li>
+<li>New dependency property <code>CircularNavigation</code> for the <code>FlipView</code> #2389</li>
+<li><code>BindsTwoWayByDefault</code> removed from <code>IsActiveProperty</code> of <code>ProgressRing</code> #2438 (@xxMUROxx)</li>
 <li>Fix Flyout theme usage in <code>Caliburn.Micro</code> sample</li>
-<li>New dependency properties for <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Tile">Tile</a></code> control: <code>HorizontalTitleAlignment</code> and <code>VerticalTitleAlignment</code> #2293</li>
+<li>New dependency properties for <code>Tile</code> control: <code>HorizontalTitleAlignment</code> and <code>VerticalTitleAlignment</code> #2293</li>
 <li>New attached dependency properties <code>TextBoxHelper.ButtonFontSize</code> #2345 Also add a new font size <code>ClearTextButtonFontSize</code> (default to 16) for all 'ClearText' buttons</li>
 <li>Added a <code>MetroFlatToggleButton</code> style like MetroFlatButton #2481 (@Koopakiller)</li>
-<li>New <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroThumbContentControl">MetroThumbContentControl</a></code> for <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroWindow">MetroWindow</a></code> title #2487
+<li>New <code>MetroThumbContentControl</code> for <code>MetroWindow</code> title #2487
 <ul>
 <li>It's now possible again to have title templates with clickable controls</li>
 <li>Replaced <code>TitleCaps</code> with <code>TitleCharacterCasing</code> (marked as obsolete). Now title can be <code>Upper</code>, <code>Lower</code> or <code>Normal</code></li>
 <li>Add new styles <code>MahApps.Metro.Styles.ContentControlEx</code> and <code>MahApps.Metro.Styles.MetroThumbContentControl</code></li>
 </ul>
 </li>
-<li><code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/Flyout">Flyout</a></code> improvement caused by #2485 #2523
+<li><code>Flyout</code> improvement caused by #2485 #2523
 <ul>
-<li>use <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ContentControlEx">ContentControlEx</a></code> for header, so it's now possible to use <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/ControlsHelper">ControlsHelper</a></code> attached properties <code>ContentCharacterCasing</code>, <code>HeaderFontSize</code>, <code>HeaderFontWeight</code> and <code>HeaderFontStretch</code></li>
+<li>use <code>ContentControlEx</code> for header, so it's now possible to use <code>ControlsHelper</code> attached properties <code>ContentCharacterCasing</code>, <code>HeaderFontSize</code>, <code>HeaderFontWeight</code> and <code>HeaderFontStretch</code></li>
 <li>new attached property <code>ControlsHelper.HeaderMargin</code> to handle the Margin from Flyout side</li>
 </ul>
 </li>
@@ -408,22 +413,53 @@
                 $(document.body).removeClass('sidebar-open');
             });
             
-            $(document).load(function() {
+            $(document).ready(function() {
                 mermaid.initialize(
                 {
                     flowchart:
                     {
-                        htmlLabels: false,
-                        useMaxWidth:false
-                    }
-                });  
-                mermaid.init(undefined, ".mermaid")
-                $('svg').addClass('img-responsive');
+                        useMaxWidth: false
+                    },
+					startOnLoad: false,
+					cloneCssStyles: false
+                });     
+                mermaid.init(undefined, ".mermaid");
+
+                // Remove the max-width setting that Mermaid sets
+                var mermaidSvg = $('.mermaid svg');
+                mermaidSvg.addClass('img-responsive');
+                mermaidSvg.css('max-width', '');
+
+                // Make it scrollable
+				var target = document.querySelector(".mermaid svg");
+				if(target !== null)
+				{
+					var panZoom = window.panZoom = svgPanZoom(target, {
+						zoomEnabled: true,
+						controlIconsEnabled: true,
+						fit: true,
+						center: true,
+                        maxZoom: 20,
+                        zoomScaleSensitivity: 0.6
+					});			                          
+
+                    // Do the reset once right away to fit the diagram
+                    panZoom.resize();
+                    panZoom.fit();
+                    panZoom.center();
+                    
+                    $(window).resize(function(){
+                        panZoom.resize();
+                        panZoom.fit();
+                        panZoom.center();
+                    });
+				}
                 
                 $('pre code').each(function(i, block) {
                     hljs.highlightBlock(block);
                 });  
             });
+
             hljs.initHighlightingOnLoad();
 
             // Back to top

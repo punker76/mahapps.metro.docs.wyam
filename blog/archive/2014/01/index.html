@@ -9,7 +9,6 @@
         <link rel="shortcut icon" href="/mahapps.metro.docs.wyam/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/mahapps.metro.docs.wyam/assets/img/favicon.ico" type="image/x-icon">
         <title>MahApps.Metro - January, 2014</title>
-        <link href="/mahapps.metro.docs.wyam/assets/css/mermaid.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/highlight.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/bootstrap/bootstrap.css" rel="stylesheet" />
         <link href="/mahapps.metro.docs.wyam/assets/css/adminlte/AdminLTE.css" rel="stylesheet" />
@@ -24,6 +23,7 @@
         <script src="/mahapps.metro.docs.wyam/assets/js/jquery.slimscroll.min.js"></script>
         <script src="/mahapps.metro.docs.wyam/assets/js/jquery.sticky-kit.min.js"></script>
         <script src="/mahapps.metro.docs.wyam/assets/js/mermaid.min.js"></script>
+        <script src="/mahapps.metro.docs.wyam/assets/js/svg-pan-zoom.min.js"></script>
         <!--[if lt IE 9]>
         <script src="/mahapps.metro.docs.wyam/assets/js/html5shiv.min.js"></script>
         <script src="/mahapps.metro.docs.wyam/assets/js/respond.min.js"></script>
@@ -38,8 +38,12 @@
             <header class="main-header">   
                      
                 <a href="/mahapps.metro.docs.wyam/" class="logo">
-                            <span>MahApps.Metro</span>
-                </a>   
+
+                                <!-- mini logo for sidebar mini 50x50 pixels -->
+                                <span class="logo-mini"><img src="/mahapps.metro.docs.wyam/assets/img/mahapps.metro.logo.png"></span>
+                                <!-- logo for regular state and mobile devices -->
+                                <span class="logo-lg"><img src="/mahapps.metro.docs.wyam/assets/img/mahapps.metro.logo.png"></span>
+                                            </a>   
                          
                 <nav class="navbar navbar-static-top" role="navigation">
                     <!-- Sidebar toggle button-->
@@ -61,7 +65,6 @@
                                     <li><a href="/mahapps.metro.docs.wyam/about">About This Project</a></li>
         <li><a href="/mahapps.metro.docs.wyam/docs">Docs</a></li>
         <li class="active"><a href="/mahapps.metro.docs.wyam/blog">Blog</a></li>
-        <li><a href="/mahapps.metro.docs.wyam/api">API</a></li>
  
                         </ul>       
                     </div>
@@ -85,9 +88,9 @@
                     <ul class="sidebar-menu">
                         
 
-    <li class="header"><i class="fa fa-bookmark"></i> Categories</li>    
-        <li><a href="/mahapps.metro.docs.wyam/blog/general">general</a></li>
-        <li><a href="/mahapps.metro.docs.wyam/blog/Release">Release</a></li>
+        <li class="header"><i class="fa fa-bookmark"></i> Categories</li>    
+            <li><a href="/mahapps.metro.docs.wyam/blog/general">general</a></li>
+            <li><a href="/mahapps.metro.docs.wyam/blog/Release">Release</a></li>
     
     <li class="header"><i class="fa fa-calendar"></i> Archive</li>    
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2017/04">April, 2017</a></li>
@@ -108,9 +111,9 @@
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2013/11">November, 2013</a></li>
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2013/03">March, 2013</a></li>
     
-    <li class="header"><i class="fa fa-user"></i> Authors</li>    
-        <li><a href="/mahapps.metro.docs.wyam/blog/author/flagbug">flagbug</a></li>
-        <li><a href="/mahapps.metro.docs.wyam/blog/author/punker76">punker76</a></li>
+        <li class="header"><i class="fa fa-user"></i> Authors</li>    
+            <li><a href="/mahapps.metro.docs.wyam/blog/author/flagbug">flagbug</a></li>
+            <li><a href="/mahapps.metro.docs.wyam/blog/author/punker76">punker76</a></li>
 
                     </ul>
                             
@@ -123,21 +126,23 @@
 
 
 
-	<section class="content-header">
-		<h1>January, 2014</h1>
-	</section>
+		<section class="content-header">
+			<h1>January, 2014</h1>
+		</section>
 	<section class="content">
 		
 
         <h2><a href="/mahapps.metro.docs.wyam/blog/release-v0.12.0">Release 0.12.0</a></h2>
-<dl class="dl-horizontal">
-    <dt><i class="fa fa-calendar"></i> Published</dt>
+
+<dl class="dl-horizontal" style="margin-bottom: 12px;">
+    <dt style="text-align: left;"><i class="fa fa-calendar"></i> Published</dt>
     <dd>Thursday, January 16, 2014</dd>
-        <dt><i class="fa fa-bookmark"></i> Category</dt>
+        <dt style="text-align: left;"><i class="fa fa-bookmark"></i> Category</dt>
         <dd><a href="/mahapps.metro.docs.wyam/blog/Release">Release</a></dd>
-            <dt><i class="fa fa-user"></i> Author</dt>
+            <dt style="text-align: left;"><i class="fa fa-user"></i> Author</dt>
         <dd><a href="/mahapps.metro.docs.wyam/blog/author/punker76">punker76</a></dd>
-</dl>            <div>
+</dl>
+            <div>
                 <p>After only 2 months and nearly 300 commits, this is one of the feature-richest releases we've ever done.</p>
                 <a href="/mahapps.metro.docs.wyam/blog/release-v0.12.0">Read more...</a>
             </div>
@@ -174,22 +179,53 @@
                 $(document.body).removeClass('sidebar-open');
             });
             
-            $(document).load(function() {
+            $(document).ready(function() {
                 mermaid.initialize(
                 {
                     flowchart:
                     {
-                        htmlLabels: false,
-                        useMaxWidth:false
-                    }
-                });  
-                mermaid.init(undefined, ".mermaid")
-                $('svg').addClass('img-responsive');
+                        useMaxWidth: false
+                    },
+					startOnLoad: false,
+					cloneCssStyles: false
+                });     
+                mermaid.init(undefined, ".mermaid");
+
+                // Remove the max-width setting that Mermaid sets
+                var mermaidSvg = $('.mermaid svg');
+                mermaidSvg.addClass('img-responsive');
+                mermaidSvg.css('max-width', '');
+
+                // Make it scrollable
+				var target = document.querySelector(".mermaid svg");
+				if(target !== null)
+				{
+					var panZoom = window.panZoom = svgPanZoom(target, {
+						zoomEnabled: true,
+						controlIconsEnabled: true,
+						fit: true,
+						center: true,
+                        maxZoom: 20,
+                        zoomScaleSensitivity: 0.6
+					});			                          
+
+                    // Do the reset once right away to fit the diagram
+                    panZoom.resize();
+                    panZoom.fit();
+                    panZoom.center();
+                    
+                    $(window).resize(function(){
+                        panZoom.resize();
+                        panZoom.fit();
+                        panZoom.center();
+                    });
+				}
                 
                 $('pre code').each(function(i, block) {
                     hljs.highlightBlock(block);
                 });  
             });
+
             hljs.initHighlightingOnLoad();
 
             // Back to top

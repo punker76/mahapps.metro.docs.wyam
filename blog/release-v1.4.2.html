@@ -7,7 +7,6 @@
         <link rel="shortcut icon" href="/mahapps.metro.docs.wyam/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/mahapps.metro.docs.wyam/assets/img/favicon.ico" type="image/x-icon">
         <title>MahApps.Metro - Release 1.4.2</title>
-        <link href="/mahapps.metro.docs.wyam/assets/css/mermaid.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/highlight.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
         <link href="/mahapps.metro.docs.wyam/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
@@ -22,6 +21,7 @@
         <script src="/mahapps.metro.docs.wyam/assets/js/jquery.slimscroll.min.js"></script>
         <script src="/mahapps.metro.docs.wyam/assets/js/jquery.sticky-kit.min.js"></script>
         <script src="/mahapps.metro.docs.wyam/assets/js/mermaid.min.js"></script>
+        <script src="/mahapps.metro.docs.wyam/assets/js/svg-pan-zoom.min.js"></script>
         <!--[if lt IE 9]>
         <script src="/mahapps.metro.docs.wyam/assets/js/html5shiv.min.js"></script>
         <script src="/mahapps.metro.docs.wyam/assets/js/respond.min.js"></script>
@@ -36,8 +36,12 @@
             <header class="main-header">   
                      
                 <a href="/mahapps.metro.docs.wyam/" class="logo">
-                            <span>MahApps.Metro</span>
-                </a>   
+
+                                <!-- mini logo for sidebar mini 50x50 pixels -->
+                                <span class="logo-mini"><img src="/mahapps.metro.docs.wyam/assets/img/mahapps.metro.logo.png"></span>
+                                <!-- logo for regular state and mobile devices -->
+                                <span class="logo-lg"><img src="/mahapps.metro.docs.wyam/assets/img/mahapps.metro.logo.png"></span>
+                                            </a>   
                          
                 <nav class="navbar navbar-static-top" role="navigation">
                     <!-- Sidebar toggle button-->
@@ -59,7 +63,6 @@
                                     <li><a href="/mahapps.metro.docs.wyam/about">About This Project</a></li>
         <li><a href="/mahapps.metro.docs.wyam/docs">Docs</a></li>
         <li class="active"><a href="/mahapps.metro.docs.wyam/blog">Blog</a></li>
-        <li><a href="/mahapps.metro.docs.wyam/api">API</a></li>
  
                         </ul>       
                     </div>
@@ -87,9 +90,9 @@
                     <ul class="sidebar-menu">
                         
 
-    <li class="header"><i class="fa fa-bookmark"></i> Categories</li>    
-        <li><a href="/mahapps.metro.docs.wyam/blog/general">general</a></li>
-        <li><a href="/mahapps.metro.docs.wyam/blog/Release">Release</a></li>
+        <li class="header"><i class="fa fa-bookmark"></i> Categories</li>    
+            <li><a href="/mahapps.metro.docs.wyam/blog/general">general</a></li>
+            <li><a href="/mahapps.metro.docs.wyam/blog/Release">Release</a></li>
     
     <li class="header"><i class="fa fa-calendar"></i> Archive</li>    
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2017/04">April, 2017</a></li>
@@ -110,9 +113,9 @@
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2013/11">November, 2013</a></li>
         <li><a href="/mahapps.metro.docs.wyam/blog/archive/2013/03">March, 2013</a></li>
     
-    <li class="header"><i class="fa fa-user"></i> Authors</li>    
-        <li><a href="/mahapps.metro.docs.wyam/blog/author/flagbug">flagbug</a></li>
-        <li><a href="/mahapps.metro.docs.wyam/blog/author/punker76">punker76</a></li>
+        <li class="header"><i class="fa fa-user"></i> Authors</li>    
+            <li><a href="/mahapps.metro.docs.wyam/blog/author/flagbug">flagbug</a></li>
+            <li><a href="/mahapps.metro.docs.wyam/blog/author/punker76">punker76</a></li>
 
                     </ul>
                             
@@ -125,25 +128,27 @@
 
 
 
-	<section class="content-header">
-		<h1>Release 1.4.2</h1>
-	</section>
+		<section class="content-header">
+			<h1>Release 1.4.2</h1>
+		</section>
 	<section class="content">
 		
 
 
-<dl class="dl-horizontal">
-    <dt><i class="fa fa-calendar"></i> Published</dt>
+
+<dl class="dl-horizontal" style="margin-bottom: 12px;">
+    <dt style="text-align: left;"><i class="fa fa-calendar"></i> Published</dt>
     <dd>Monday, January 30, 2017</dd>
-        <dt><i class="fa fa-bookmark"></i> Category</dt>
+        <dt style="text-align: left;"><i class="fa fa-bookmark"></i> Category</dt>
         <dd><a href="/mahapps.metro.docs.wyam/blog/Release">Release</a></dd>
-            <dt><i class="fa fa-user"></i> Author</dt>
+            <dt style="text-align: left;"><i class="fa fa-user"></i> Author</dt>
         <dd><a href="/mahapps.metro.docs.wyam/blog/author/punker76">punker76</a></dd>
 </dl>
 
+
 <h1 id="changes-fixes">Changes / Fixes</h1>
 <ul>
-<li><a href="https://github.com/MahApps/MahApps.Metro/pull/2814">#2814</a> Correct display of media buttons in <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/HotKeyBox">HotKeyBox</a></code> (thx @thoemmi)</li>
+<li><a href="https://github.com/MahApps/MahApps.Metro/pull/2814">#2814</a> Correct display of media buttons in <code>HotKeyBox</code> (thx @thoemmi)</li>
 <li><a href="https://github.com/MahApps/MahApps.Metro/commit/7fcc6b770c77f483eb038705b252cfa7624a343f">7fcc6b7</a> Fix breaking changes for obsolete properties <code>ButtonHelper.PreserveTextCase</code>, <code>ButtonHelper.CornerRadius</code> and <code>ControlsHelper.ButtonWidth</code></li>
 <li><a href="https://github.com/MahApps/MahApps.Metro/commit/a1d199dd599fa9f46838d6449599b36c7035f76e">a1d199d</a> Fix binding to Content of HamburgerMenu</li>
 <li><a href="https://github.com/MahApps/MahApps.Metro/pull/2799">#2799</a> DateTimePicker SelectedDate issue (thx @xxMUROxx)
@@ -151,7 +156,7 @@
 <li>Fix issue where <code>SelectedDate</code> is set to the <code>DisplayDate</code> if the <code>SelectedDate</code> is <code>DateTime.MinValue</code>. This issue appears when binding to a property of DateTime and the date is <code>DateTime.MinValue</code>.</li>
 </ul>
 </li>
-<li>Z-Order was wrong if <code><a href="/mahapps.metro.docs.wyam/api/MahApps.Metro.Controls/MetroWindow">MetroWindow</a></code> is ignoring the Taskbar and maximized. This fix and the main Taskbar z-Order issue only happens with Windows 10 anniversary update 1607. Hopefully fixed in the future. <a href="https://github.com/MahApps/MahApps.Metro/issues/2780">#2780</a></li>
+<li>Z-Order was wrong if <code>MetroWindow</code> is ignoring the Taskbar and maximized. This fix and the main Taskbar z-Order issue only happens with Windows 10 anniversary update 1607. Hopefully fixed in the future. <a href="https://github.com/MahApps/MahApps.Metro/issues/2780">#2780</a></li>
 <li>Use internal GetPhysicalCursorPos instead GetCursorPos (tested with remote desktop and different DPI) <a href="https://github.com/MahApps/MahApps.Metro/issues/2748">#2748</a></li>
 </ul>
 <h1 id="closed-issues">Closed Issues</h1>
@@ -190,22 +195,53 @@
                 $(document.body).removeClass('sidebar-open');
             });
             
-            $(document).load(function() {
+            $(document).ready(function() {
                 mermaid.initialize(
                 {
                     flowchart:
                     {
-                        htmlLabels: false,
-                        useMaxWidth:false
-                    }
-                });  
-                mermaid.init(undefined, ".mermaid")
-                $('svg').addClass('img-responsive');
+                        useMaxWidth: false
+                    },
+					startOnLoad: false,
+					cloneCssStyles: false
+                });     
+                mermaid.init(undefined, ".mermaid");
+
+                // Remove the max-width setting that Mermaid sets
+                var mermaidSvg = $('.mermaid svg');
+                mermaidSvg.addClass('img-responsive');
+                mermaidSvg.css('max-width', '');
+
+                // Make it scrollable
+				var target = document.querySelector(".mermaid svg");
+				if(target !== null)
+				{
+					var panZoom = window.panZoom = svgPanZoom(target, {
+						zoomEnabled: true,
+						controlIconsEnabled: true,
+						fit: true,
+						center: true,
+                        maxZoom: 20,
+                        zoomScaleSensitivity: 0.6
+					});			                          
+
+                    // Do the reset once right away to fit the diagram
+                    panZoom.resize();
+                    panZoom.fit();
+                    panZoom.center();
+                    
+                    $(window).resize(function(){
+                        panZoom.resize();
+                        panZoom.fit();
+                        panZoom.center();
+                    });
+				}
                 
                 $('pre code').each(function(i, block) {
                     hljs.highlightBlock(block);
                 });  
             });
+
             hljs.initHighlightingOnLoad();
 
             // Back to top
