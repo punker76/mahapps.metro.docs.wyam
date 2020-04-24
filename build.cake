@@ -73,7 +73,7 @@ Task("Default")
     .IsDependentOn("Preview")
     ;
 
-Task("docs")
+Task("CIBuild")
     .IsDependentOn("Build")
     ;
 
