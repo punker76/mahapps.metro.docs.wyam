@@ -28,6 +28,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@master
       env:
-        EMAIL: ${{ secrets.GITHUB_EMAIL }}
+        EMAIL: ${{ secrets.THE_GITHUB_EMAIL }}
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BUILD_DIR: ./output
