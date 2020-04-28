@@ -30,4 +30,5 @@ jobs:
       env:
         EMAIL: ${{ secrets.MY_GITHUB_EMAIL }}
         GH_TOKEN: ${{ secrets.MY_GITHUB_ACTIONS_TOKEN }}
+        CNAME: mahapps.com
         BUILD_DIR: ./output
